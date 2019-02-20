@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'Co_pay_PayNotificationSDK_Example' do
+  pod 'Co_pay_PayNotificationSDK', :path => '../'
+
+  target 'Co_pay_PayNotificationSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
