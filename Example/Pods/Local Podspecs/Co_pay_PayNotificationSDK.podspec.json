@@ -12,11 +12,10 @@
     "张宇威": "zhangyuwei@gomo.com"
   },
   "source": {
-    "git": "https://github.com/张宇威/Co_pay_PayNotificationSDK.git",
-    "tag": "0.1.0"
+    "git": "/Users/zy/WorkSpace/Test/ShellTest/Co_pay_PayNotificationSDK"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Co_pay_PayNotificationSDK/Classes/**/*"
+  "source_files": "Co_pay_PayNotificationSDK/Classes/Core/**/*"
 }

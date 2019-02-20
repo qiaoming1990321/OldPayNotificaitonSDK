@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CSPayNotificationModel : NSObject<NSCoding>
+@interface Co_pay_PayNotificationModel : NSObject<NSCoding>
 
 @property (nonatomic, copy) NSString *uuid;
 

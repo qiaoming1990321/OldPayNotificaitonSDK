@@ -1,5 +1,5 @@
 //
-//  CSPayNotificationSecureManager.h
+//  Co_pay_PayNotificationSecureManager.h
 //  PayNotificationSDK
 //
 //  Created by qiaoming on 2019/1/28.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CSPayNotificationSecureManager : NSObject
+@interface Co_pay_PayNotificationSecureManager : NSObject
 
 //加密
 + (NSData *)encryptUseDES2:(NSString *)plainText key:(NSString *)key keyBase64:(BOOL)keyNeedBase64;

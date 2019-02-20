@@ -8,18 +8,18 @@
 
 #import <Foundation/Foundation.h>
 typedef NS_ENUM(NSInteger , PayNotificationHttpStatus) {
-    PayNotificationHttpStatusFail = -1,
-    PayNotificationHttpStatusSuccess = 0,
+PayNotificationHttpStatusFail = -1,
+PayNotificationHttpStatusSuccess = 0,
 };
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CSPayNotificationHTTPResponse : NSObject
+@interface Co_pay_PayNotificationHTTPResponse : NSObject
 
 @property (nonatomic) PayNotificationHttpStatus status;
 
 /**
- http 的返回码
- */
+http 的返回码
+*/
 @property (nonatomic) NSInteger statusCode;
 @property (nonatomic, strong) NSError *error;
 @property (nonatomic, copy) NSDictionary *bodyData;

@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '张宇威' => 'zhangyuwei@gomo.com' }
-  s.source           = { :git => 'https://github.com/张宇威/Co_pay_PayNotificationSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => '/Users/zy/WorkSpace/Test/ShellTest/Co_pay_PayNotificationSDK'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

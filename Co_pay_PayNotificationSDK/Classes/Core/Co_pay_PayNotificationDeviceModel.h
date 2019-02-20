@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CSPayNotificationDeviceModel : NSObject
+@interface Co_pay_PayNotificationDeviceModel : NSObject
 
 + (NSDictionary *)deviceWithDid:(NSString *)did;
 

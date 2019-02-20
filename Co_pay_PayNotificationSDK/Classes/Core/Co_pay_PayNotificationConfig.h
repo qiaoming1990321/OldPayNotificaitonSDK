@@ -1,5 +1,5 @@
 //
-//  CSPayNotificationConfig.h
+//  Co_pay_PayNotificationConfig.h
 //  PayNotificationSDK
 //
 //  Created by qiaoming on 2019/1/22.
@@ -9,12 +9,12 @@
 #import <Foundation/Foundation.h>
 
 typedef NS_ENUM (NSInteger, PayNotificationMethod) {
-    PayNotificationHttpMethodGET = 0,
-    PayNotificationMethodPOST,
+PayNotificationHttpMethodGET = 0,
+PayNotificationMethodPOST,
 };
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CSPayNotificationConfig : NSObject
+@interface Co_pay_PayNotificationConfig : NSObject
 
 @property (nonatomic,copy) NSString *accessToken;
 @property (nonatomic,copy) NSString *accountId;

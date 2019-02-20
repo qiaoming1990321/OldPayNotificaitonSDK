@@ -1,5 +1,5 @@
 //
-//  NSString+CSPayNotificationSecure.h
+//  NSString+Co_pay_PayNotificationSecure.h
 //  PayNotificationSDK
 //
 //  Created by qiaoming on 2019/1/28.
@@ -12,7 +12,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSString (CSPayNotificationSecure)
+@interface NSString (Co_pay_PayNotificationSecure)
 +(NSString *)payNotificationSecureHmacSHA256AndSafeUrlBase64EncodeWithKey:(NSString *)key value:(NSString *)value;
 +(NSString *)payNotificationSecureBase64EncodedString:(NSString *)string;
 
