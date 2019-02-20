@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Co_pay_PayNotificationSDK/Classes/**/*'
+  s.source_files = 'Co_pay_PayNotificationSDK/Classes/Core/**/*'
   
   # s.resource_bundles = {
   #   'Co_pay_PayNotificationSDK' => ['Co_pay_PayNotificationSDK/Assets/*.png']

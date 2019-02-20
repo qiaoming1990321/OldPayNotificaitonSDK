@@ -1,0 +1,16 @@
+PODS:
+  - Co_pay_PayNotificationSDK (0.1.0)
+
+DEPENDENCIES:
+  - Co_pay_PayNotificationSDK (from `../`)
+
+EXTERNAL SOURCES:
+  Co_pay_PayNotificationSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Co_pay_PayNotificationSDK: a48c31b74b4fbcc29e8bce0a09801c50e52a3b57
+
+PODFILE CHECKSUM: d4ab26fa106de74335e15993b58019e7d0044a98
+
+COCOAPODS: 1.5.3

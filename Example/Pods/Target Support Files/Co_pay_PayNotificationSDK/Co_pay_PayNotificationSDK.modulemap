@@ -1,0 +1,6 @@
+framework module Co_pay_PayNotificationSDK {
+  umbrella header "Co_pay_PayNotificationSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

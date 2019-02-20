@@ -1,0 +1,6 @@
+framework module Pods_Co_pay_PayNotificationSDK_Example {
+  umbrella header "Pods-Co_pay_PayNotificationSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

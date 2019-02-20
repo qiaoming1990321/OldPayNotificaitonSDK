@@ -1,0 +1,22 @@
+{
+  "name": "Co_pay_PayNotificationSDK",
+  "version": "0.1.0",
+  "summary": "A short description of Co_pay_PayNotificationSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/张宇威/Co_pay_PayNotificationSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "张宇威": "zhangyuwei@gomo.com"
+  },
+  "source": {
+    "git": "https://github.com/张宇威/Co_pay_PayNotificationSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Co_pay_PayNotificationSDK/Classes/**/*"
+}
