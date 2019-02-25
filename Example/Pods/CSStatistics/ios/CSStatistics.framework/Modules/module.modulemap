@@ -1,0 +1,6 @@
+framework module CSStatistics {
+  umbrella header "CSStatistics.h"
+
+  export *
+  module * { export * }
+}

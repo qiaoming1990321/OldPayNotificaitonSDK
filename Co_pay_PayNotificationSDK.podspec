@@ -31,7 +31,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Co_pay_PayNotificationSDK/Classes/Core/**/*'
-  
+  s.dependency 'AFNetworking'
+  s.dependency 'SAMKeychain'
+  s.dependency 'CSStatistics'
   # s.resource_bundles = {
   #   'Co_pay_PayNotificationSDK' => ['Co_pay_PayNotificationSDK/Assets/*.png']
   # }

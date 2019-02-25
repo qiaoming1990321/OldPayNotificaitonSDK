@@ -1,0 +1,1 @@
+../../../../../Co_pay_PayNotificationSDK/Classes/Core/NSString+Co_pay_PayNotificationSecure.h

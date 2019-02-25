@@ -1,0 +1,1 @@
+../../../../../Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationModel.h

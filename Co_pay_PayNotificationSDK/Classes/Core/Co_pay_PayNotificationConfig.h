@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic, assign)NSInteger desBytesCapacity;
 @property(nonatomic, assign)NSInteger requestTimeout;
-- (void)initPayNotificationConfigWith:(BOOL)isDebug withClientID:(NSString *)clientID withSignatureKey:(NSString *)signatureKey withDesKey:(NSString *)desKey appid:(NSString *)appId;
+- (void)co_pay_initPayNotificationConfigWith:(BOOL)isDebug withClientID:(NSString *)clientID withSignatureKey:(NSString *)signatureKey withDesKey:(NSString *)desKey appid:(NSString *)appId;
 
 - (NSString *)getPayStateDomain;
 

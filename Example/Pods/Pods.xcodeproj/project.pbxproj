@@ -7,186 +7,568 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0414457F2494011397543B77F55FBFDF /* Co_pay_PayNotificationConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8944A0C12C797FD93A41C21DE8B255 /* Co_pay_PayNotificationConfig.m */; };
-		08618E911E4B1F62098AB16E765E34FA /* Co_pay_PayNotificationSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85BAD7E335C0A99DF27490527FE0FA73 /* Co_pay_PayNotificationSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BB88F798FF6A7E7C7D97F9395824641 /* Co_pay_PayNotificationRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F3EC3C049F899BC1E165113AB3B9D /* Co_pay_PayNotificationRequestSerializer.m */; };
-		0BB954788FE6B31F386F023CE448E92C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		0D7422E1B39C6F682F5D7DB840165DF9 /* Co_pay_PayNotificationRequestSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = FD394D8E06A8EF6F38E3F483156FC185 /* Co_pay_PayNotificationRequestSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1992750598E2E637E69B5F7DCD47464C /* Pods-Co_pay_PayNotificationSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 205F5C12F3D3D0AB1E3F4F90B04F7AD8 /* Pods-Co_pay_PayNotificationSDK_Tests-dummy.m */; };
-		1F036C7645E07A6A4ABFECF24E53380C /* Co_pay_PayNotificationHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E2951A6D43FE723503D26675E90DF59 /* Co_pay_PayNotificationHTTPResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2936E2230C3D6EC2FFD60A159557F11C /* Pods-Co_pay_PayNotificationSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BD67CFBD99FF8029BAFE4962BE994F /* Pods-Co_pay_PayNotificationSDK_Example-dummy.m */; };
-		310758892CBA0DC0C1EB8F854B512BFD /* Co_pay_PayNotificationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CEEE4D8AEC7573A06244BD872C0630 /* Co_pay_PayNotificationModel.m */; };
-		46B8583E34410ACC962C398A602A1CC8 /* Co_pay_PayNotificationSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E8C5835A6A2C95C583D046EE8D8017 /* Co_pay_PayNotificationSDK-dummy.m */; };
-		527693E7FCC86143D23BEEDD7CD4DB57 /* Co_pay_PayNotificationDeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A9E812CA4E833AE81E9C5513DD99C5 /* Co_pay_PayNotificationDeviceModel.m */; };
-		5A5C59918B6FD8605A258C03DBA9D5FA /* Co_pay_PayNotificationFailManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3387B6AAB0A9F0C2516EFBCBAB441D /* Co_pay_PayNotificationFailManager.m */; };
-		617B2E5A932EFA4396C4363DD8FC37FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		6243392251D150A9F21234EB8E39F20C /* NSString+Co_pay_PayNotificationSecure.h in Headers */ = {isa = PBXBuildFile; fileRef = E9A2702339CD4874C99CFACE2262F3CA /* NSString+Co_pay_PayNotificationSecure.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C9A969D87B2023519B9EC6385DA5C83 /* Co_pay_PayNotificationSecureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 926D12D11BEC8F32275B6697C7DC2E72 /* Co_pay_PayNotificationSecureManager.m */; };
-		6E5BB24DFB161808287D085DD44CD4B4 /* Pods-Co_pay_PayNotificationSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 774A2497EA269B1712D9432A7A3FBABB /* Pods-Co_pay_PayNotificationSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F6C21A77BD536E821319ADB28E17D64 /* Co_pay_PayNotificationDeviceModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BD1A823E27D0A52BD15F3384EDE6A40F /* Co_pay_PayNotificationDeviceModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F191913EE9940EF63BD1AA6A8094BCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		7FC8A159B3541572452D9B3DBF877F49 /* Co_pay_PayNotificationModel.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC842F33F6AEFB7C9D8F4748A469167 /* Co_pay_PayNotificationModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		854E2736982DA4886EA391824DDD33E9 /* Co_pay_PayNotificationHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A407162B9F4E516623962356F156B352 /* Co_pay_PayNotificationHTTPResponse.m */; };
-		AF470CDDB805F08E2F44D816078B7964 /* Co_pay_PayNotificationFailManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E80D1B17E083DAFAB8657B39B0BFA23 /* Co_pay_PayNotificationFailManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B35AE0CF5A05A52BEA2CA1599DA05C97 /* NSString+Co_pay_PayNotificationSecure.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BA8F416299A2C8FD3B791998FF4DF8 /* NSString+Co_pay_PayNotificationSecure.m */; };
-		B72F0C97ED139B4FAF44A6A07DE5FB36 /* Co_pay_PayNotificationSecureManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FD9FF54C69FAE4A6BAE442D7284660C7 /* Co_pay_PayNotificationSecureManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA7D8C2254E8E4FA7EEC4DCEF11B0749 /* Co_pay_PayNotificationStateApiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CD1F0E9D5FC9AA49E0A9BDE6F8F075E /* Co_pay_PayNotificationStateApiManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ECA03DF4A667F9ED48AAC92C062E85BF /* Co_pay_PayNotificationStateApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA82CDE087D3702B030FFB937E396834 /* Co_pay_PayNotificationStateApiManager.m */; };
-		F28F3D997F36F4F6B36877E6F0D3BD92 /* Pods-Co_pay_PayNotificationSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33435A60CE6144F2F97FF8B98154A56A /* Pods-Co_pay_PayNotificationSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D085C0459E97BDF253613F49D935BD /* Co_pay_PayNotificationConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE52E4D9C6FEEB3ECE2EB22100540E9 /* Co_pay_PayNotificationConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00EAE75910E4F2FDFA7D9B77ABEFA5E8 /* Co_pay_PayNotificationConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 939D2E37D1FAE3BE6E02EB5AAE53375B /* Co_pay_PayNotificationConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		01098BE26196660BD9CC5C545194F5A0 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B7202DABB5BCDF502397F0A5526F50 /* AFNetworkActivityIndicatorManager.m */; };
+		043D50A2BF1F12525C9406E1B540EA3E /* Co_pay_PayNotificationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EA7883500335C4FE1A0E2FD33ACB69 /* Co_pay_PayNotificationModel.m */; };
+		080CE2D6B168685ADC24A609867447B6 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAC94ED91B48CCC54E22980DE923094 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		0D8D68D3F31A77B0C10354BCC7C05CBA /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB45F65F464CE35214B0F893ED8B56E /* sqlite3.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F8A3FDE8072293F3F1DDBA5DED22247 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E81880E7D9AE558F620687763F93CC /* FMDB-dummy.m */; };
+		100449F4F7F6F6C2DB38FF814961D2E9 /* NSObject+LKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1FB206C58FAF1BDB526B376E8400A5 /* NSObject+LKModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		13E458860BF01BD4AD754F09E67D34D3 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DE15897615E9A6687F50862CF9AD28 /* AFURLSessionManager.m */; };
+		1E92B4E8210A83375537384B33F68AFB /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 5443DD60A3E0D4A88B44392F3485631E /* SAMKeychain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		21BC7897EB312C7B0D5B2A4DD2F0FDE4 /* Pods-Co_pay_PayNotificationSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DEC35B6856A24527D91C2B373CCC45 /* Pods-Co_pay_PayNotificationSDK_Tests-dummy.m */; };
+		22F802B5797013CAB89BE7984F05B657 /* Co_pay_PayNotificationModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EB69127389916F69015C7856DF9A1431 /* Co_pay_PayNotificationModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		24B9EE9189EF79A5D62FF97F094E6B91 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A0CB5549A6169B769CEEA675CDCD20 /* UIButton+AFNetworking.m */; };
+		27359703ED432A1DB91C426E7465E5D7 /* Co_pay_PayNotificationStateApiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CCBB6ADF5EC964D1D24D508229EF6695 /* Co_pay_PayNotificationStateApiManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2AA287541F00A47B98D4A1195EA27E13 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EB863D41F5F0B0D11D184F48558B7322 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D5CA16AE7B489BBC6B4395F606A64FF /* LKDBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3247FF10BA9372D88DA6788B476C5248 /* LKDBUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		322B0167DC6ADAEC507BA261B16D5A4D /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 906FE72BE62CAF77AD8F4B50F7129D59 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		32AA532B4B476F3CB155321DD31BE2E0 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FD7A80896FA3162A558D4FD4BE319E /* UIWebView+AFNetworking.m */; };
+		337CD440F852C34CA6D1F3B0C157DFF1 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CC317EAAA3409FCD243AF8F5FCBC3686 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		33CFDB901334CE627274082F7478C031 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4D5A2E263A5E8A0D5D6F0052704B07 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		37F95B687C5974E3DF611D9E72651BAE /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 897BC771ED7CC2E328F76C58914CC6A0 /* FMDB.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38584822C998FBCACB9EDBFE7B3C2FC9 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F3E0777F916F22BD5BC35785909F2789 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38ACD750445EB2A0EDC1DF1737C92EC8 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EA47FDBF94BEC2127D712D74AB9AE22 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3941248CFCC3E42F545DBD4BBB2A4D64 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B85222F2919986867F8E5D9B0511ED /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3973C9FFB035FA0C670A42917EE82E64 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E7F555D8CF6C27B702A3EF9A760A8EE /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3BEB21070080ABEA0EB68DE1AC59F0CF /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A2A66B5344062632AFE5AFC633A8C9 /* AFHTTPSessionManager.m */; };
+		3E16B619C420D44A6FB9085D71026425 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F849A406B81E2A4A2CCFDFC9E24B5D0 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		3F355593386658B853B5D9C27FB32EDB /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = F8E5C12468B2E0FDFEB6E3B7BFC3A256 /* sqlite3.c */; settings = {COMPILER_FLAGS = "-DNDEBUG -DSQLITE_HAS_CODEC -DSQLITE_TEMP_STORE=2 -DSQLITE_SOUNDEX -DSQLITE_THREADSAFE -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_STAT3 -DSQLITE_ENABLE_STAT4 -DSQLITE_ENABLE_COLUMN_METADATA -DSQLITE_ENABLE_MEMORY_MANAGEMENT -DSQLITE_ENABLE_LOAD_EXTENSION -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_FTS4_UNICODE61 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_UNLOCK_NOTIFY -DSQLITE_ENABLE_JSON1 -DSQLITE_ENABLE_FTS5 -DSQLCIPHER_CRYPTO_CC -DHAVE_USLEEP=1 -DSQLITE_MAX_VARIABLE_NUMBER=99999 -fno-objc-arc"; }; };
+		3F4398EF02DEF29A2E116F33B7EA649E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3F598D83C98061909D965B3013140C /* Security.framework */; };
+		40A631F71D4AE399386FF6DF7D38B34F /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 3795AA70FBE905F5AEE66D07E89AC733 /* SAMKeychainQuery.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46BC0A47F1D419C82B1AAAC02534B3A5 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D277E7C1E012F14F48965BFE5B7CC783 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D92DA503C53934C4070048BE5A2F166 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2449B8C8A267D59CC81219A411AACD44 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5304221AC258DD68E730B0853DADA32F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5875EDC009259B1B316E20A4CE4AEA /* CoreGraphics.framework */; };
+		564B5932A4559FCB835A4D83D0CAE0A1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3F598D83C98061909D965B3013140C /* Security.framework */; };
+		608FC04D4C7B96F96BAC3DD8FEA77B63 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 099D6D0326EF447ECB64808240C2992A /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		626AEB8B98CDDC9A370135C04BBF5BD2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3F598D83C98061909D965B3013140C /* Security.framework */; };
+		65DEDD21C68EC69C7FB3F1E39A151683 /* NSObject+LKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 275755DC892806CFA0AC1B000515051F /* NSObject+LKDBHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		66085B599DC968FFC9B662E0D9FBA38D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 332A4C4E6F06F50B9E400C38226DCEBD /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		66A5EC8E89B55AB155B8D520C89329FD /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A722133B95CD990B448D13CF16669EA0 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6771CF63E12CF9DD93F023868C0B5BC5 /* Co_pay_PayNotificationRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F28045316400B58ACB9EA33A99ED98C /* Co_pay_PayNotificationRequestSerializer.m */; };
+		6CB950CBBB5AB24A7090B881C2986162 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AFB8AD3F38B0CEE4E93D54B251BAFEB4 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		72C7D69ADEA89CE8D2BB24B95DDA17A9 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A38641F693381CE148ECA77E21CCA /* AFNetworkReachabilityManager.m */; };
+		759B0BBEB9EB49DA9DAA7ED32C3296EB /* Co_pay_PayNotificationFailManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A73A9026E5E8CE414ADCCB2F4B435DA3 /* Co_pay_PayNotificationFailManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		765B7A86008A372D7476CB9B10DE3FD8 /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = E713EA38B3C7224C5A513D8971FFC498 /* SAMKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		76DD9D1D802D2EC64308B8067E6BEA8D /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 83073CED8A654FB00384513E82DE48E6 /* AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7A22670D99E4B4DF9828EBA452CD5108 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = DE8B6C6925A765363C0A332AA9B253D1 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7A7A848EC8A1EE519E546993E002CF01 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C62500F327321DBF9FFDDFA11AAA7E29 /* UIProgressView+AFNetworking.m */; };
+		80963439585EF9A4B089806A2014C73C /* Co_pay_PayNotificationRequestSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = AEE1A4D20DED71B6D576C929FBFE084A /* Co_pay_PayNotificationRequestSerializer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81868F58530B409860CA8B34EF8CF251 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2296581808EF273FDF3E6436F5797370 /* FMDatabase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		85051C725B6D9A339A5158688B22E0B7 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BD4FB015C10E38FD22E8D8FDE230D6 /* SAMKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		88181C1D32BB88A9F71C5167ACBF70F8 /* LKDBHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A82D0AB68F291E2D2997498437CADBC /* LKDBHelper-dummy.m */; };
+		884D1652DB00388C4DA05F98B4E680C6 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 333928A39C34598D3C1CD7D53369DA63 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8874ADF0D2263BAD80CA3E8DF4EA8802 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7354E053D0AD26B1ECF2016D0E681A31 /* MobileCoreServices.framework */; };
+		892A4871DF5903F05334A0303A3C5702 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 11694EC1A98D615BC597628EA0E62293 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A89F877001E5F36E99B97A934A93282 /* LKDB+Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EA67C54AB94285C22A72B051D6D145 /* LKDB+Mapping.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8F0C54DB7821D9715DA1245C91CDD01B /* Co_pay_PayNotificationHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 70D0BCB4A1D8760C911C0F4DD01507D7 /* Co_pay_PayNotificationHTTPResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8FE32B2C54C6FBC8746B0DF5F47145B1 /* LKDBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4BE2A48EE78BBF2DFBBD5679D682DB /* LKDBHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		91E6519B216B77C7F80E294178AAB985 /* NSString+Co_pay_PayNotificationSecure.m in Sources */ = {isa = PBXBuildFile; fileRef = 2075EDC4C51CD2522CB91E6D54454226 /* NSString+Co_pay_PayNotificationSecure.m */; };
+		93B3FE9343B28A6BD9ADC733C04BE8EA /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CA95DBC2E7E4807D68A93B8EEAAFE5 /* UIActivityIndicatorView+AFNetworking.m */; };
+		956C4A7D7671C716BE49909E399C963D /* Co_pay_PayNotificationSecureManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 82415473818141F7457B976205A0CF3C /* Co_pay_PayNotificationSecureManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9724FFD9E6A924F134E309FCF4A4DBA7 /* Co_pay_PayNotificationStateApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C8A1B8BBDEDC42A49B8C2F583F090A /* Co_pay_PayNotificationStateApiManager.m */; };
+		9856EA5B801AE20FD38D34B6025E759E /* Co_pay_PayNotificationConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0764C44C0459DA511475484BD33071D2 /* Co_pay_PayNotificationConfig.m */; };
+		9BE0D8D44D59C670325C3D81D416105C /* SQLCipher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70641AC7CBED5915F0CE715E79E5E791 /* SQLCipher-dummy.m */; };
+		9FAC93AFAFC8306687EE092710D9F343 /* Co_pay_PayNotificationDeviceModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3DE3D4AB4F5B4A0E1489F750B45F86 /* Co_pay_PayNotificationDeviceModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A3D393ACCC52180836FE59F9E6AB83AA /* Pods-Co_pay_PayNotificationSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 390DBF1C7124EFCF1482C90E45979899 /* Pods-Co_pay_PayNotificationSDK_Example-dummy.m */; };
+		A85834C08F41662ADA5FA22E21DA4F5F /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0830A34177869200BA450C8CDF905611 /* AFURLResponseSerialization.m */; };
+		B72534FAB76929AAA262B6C262171A83 /* LKDB+Mapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 10DB8F91F1F279196F70BA3C7BCC4FEB /* LKDB+Mapping.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BAD746DBE96E931B5C5FDB00C6BEF1A4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4225092C0C6CAB0238FB7377BD6D00C /* SystemConfiguration.framework */; };
+		C13D7203D0502CFDD1CD5C0F069B5201 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AF10D87C538DF924ECC6CFB6CE35E1 /* AFImageDownloader.m */; };
+		C450FA8396B47270B27950AAD1026853 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 68901FC56B9C709117AF2E0093DC1B17 /* UIRefreshControl+AFNetworking.m */; };
+		C52F59F458FAC576265D520B87586F2A /* Co_pay_PayNotificationDeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA984D70CB4B7B7BDFB4839056C67B /* Co_pay_PayNotificationDeviceModel.m */; };
+		CAC8A3028634D75BD141E5667A57A934 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7856E52ACBAAE3C20DF290BC4F703904 /* FMResultSet.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CAD7415DA1D05CB1B389D9CE6EE9D91C /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D560AB5C65DB5C932F363B832D3A49C2 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC41EB5244DB411330CED77161E339DC /* Co_pay_PayNotificationFailManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F8BBE8ED4D6689767505E09DBE8125 /* Co_pay_PayNotificationFailManager.m */; };
+		CDAEFF713408F3517260A86299E16C8E /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBF84706167326A35B3387BB84A9F76 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		D1D9749FD4F58B1C0AE3B1A3BFCC3A13 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 25A01C1A4FFEE22FE2A7E768D8B3DD8F /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D8BA665725FCABF6052E4639DBBACC6A /* SAMKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F346764A5B24EB71BFB08605FFA6CAC /* SAMKeychain-dummy.m */; };
+		E138BF1E914578B1F060EEF43FBA1CC1 /* NSString+Co_pay_PayNotificationSecure.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0E4803139C161A08CA356E7666E23A /* NSString+Co_pay_PayNotificationSecure.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E424BC9AA05B7BDBA96F16F4C542F25F /* NSObject+LKModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 979913DD18026D746DC2E63E86537545 /* NSObject+LKModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E749E7B1ECC21CA0201003BCF5F52B32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D3C943E732CDED27AA5EA9AACF9375 /* Foundation.framework */; };
+		ED3350686DCA321FC0CB884EF0FF34F7 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F09259E0429AA077A3F548D8DE598E49 /* AFURLRequestSerialization.m */; };
+		EF3845963CFF5C261D19D44B12CD9161 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F1D6472504B90FF4813D0884634C45 /* AFNetworking-dummy.m */; };
+		F11639A7061B93B03A3E26E82C00DE3D /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7F3E32D5D077B31AEA0464A7F48409 /* UIImageView+AFNetworking.m */; };
+		F2E8556B0471029398F3CB8DC64C6EDA /* Co_pay_PayNotificationSecureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F6EE264E89093CA3CCBF405179B6EA /* Co_pay_PayNotificationSecureManager.m */; };
+		F3C7B2EE4596DD660B707F45FB2FC524 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9990907EA5CAFF4C26576A664DE644A3 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F479CCBA7F60AF93EE45D8AE3D171524 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D3C943E732CDED27AA5EA9AACF9375 /* Foundation.framework */; };
+		F4F950625A8F380894FD02414712F7D6 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C651544831CA3E5CAC13C469DFD69B /* AFSecurityPolicy.m */; };
+		F5E81A44EE8A155E51394026798DBB86 /* NSObject+LKDBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0325529211D8B6CA8FF1BE7A1B3B1D26 /* NSObject+LKDBHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F763E92BD6C05B01C6294EE36B1DCE66 /* Co_pay_PayNotificationHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 60746279FE95DD141075B99475E574C8 /* Co_pay_PayNotificationHTTPResponse.m */; };
+		F79615CF1161C38954FCCF7BBBC0884F /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D5900B36219FC73DE4D555A0C5BC92 /* AFAutoPurgingImageCache.m */; };
+		F7C1708085D4ECF4E524E60D3CEE35DF /* LKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 080507EDE04DA560E59952273E596BD2 /* LKDBHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FB059AE1DF9FEC7CAACF03FF0A8B7688 /* LKDBUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 071D29B63C8B30D8A0DE8EF1FA97A532 /* LKDBUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC0E22065317ABAEDBFC084E1BCC587F /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9CEEB1DF28CECFA40D754001C2FD38 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FCA150CBFDAAE201EE57358F5C008B20 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 96F49E117EC2E5527054E07E60915EA1 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FCC4A70D8879E223D4FAE2CEACC1F639 /* Co_pay_PayNotificationSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C10C64DF2C6C44B37B7B2C2BBCE2F1 /* Co_pay_PayNotificationSDK-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		32BAA40251DCD5ADD773AEFFAF182811 /* PBXContainerItemProxy */ = {
+		277A433FB371E36729FA9772D8485341 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CB7DAAF3B7B47D62D1EC98758627EA82;
+			remoteGlobalIDString = CBF28EC9CDE0D2DC1709741E85D11760;
+			remoteInfo = FMDB;
+		};
+		2AEBCF89AA595954ED4796321D992C3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57D0B419DD41B489FCB8AC8B124BEB61;
+			remoteInfo = SAMKeychain;
+		};
+		32376649AEADE8F85DED2F58CD9EDC76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79088B8C8555E63FDBF24B6DEF3A60F1;
+			remoteInfo = SQLCipher;
+		};
+		436B5B6E8533347850DD9C46FBD2F435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81D213BD50994720DF37335C12B389B6;
+			remoteInfo = AFNetworking;
+		};
+		4EFC451CB88537C5B0AA4CB8BD79D754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 217A04E2FCECF298935C9305006BCA6F;
+			remoteInfo = LKDBHelper;
+		};
+		6B0720F2B2EB263A35E7CA545DFAEB4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79088B8C8555E63FDBF24B6DEF3A60F1;
+			remoteInfo = SQLCipher;
+		};
+		907590D3A4D128B31BCFE06B16187634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79088B8C8555E63FDBF24B6DEF3A60F1;
+			remoteInfo = SQLCipher;
+		};
+		91F9930E21E59B2B2732E7C270B90322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF28EC9CDE0D2DC1709741E85D11760;
+			remoteInfo = FMDB;
+		};
+		9752E8404CDEBE3BD4125B2EC9B2B19F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44554DC93195FEE7E0A79E676A826579;
 			remoteInfo = Co_pay_PayNotificationSDK;
 		};
-		5E586C6C214B8F238D0C7588E4646393 /* PBXContainerItemProxy */ = {
+		9827380850117822017D389808F873B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BBE1D383F69DBF6A0107353AB2F61338;
+			remoteGlobalIDString = 57D0B419DD41B489FCB8AC8B124BEB61;
+			remoteInfo = SAMKeychain;
+		};
+		A7862F2139DFF8062AF93E388C962B41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 217A04E2FCECF298935C9305006BCA6F;
+			remoteInfo = LKDBHelper;
+		};
+		C9FB77E24A729B35B347A0E438FD3584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF28EC9CDE0D2DC1709741E85D11760;
+			remoteInfo = FMDB;
+		};
+		CF0BA7F5B428A1F39313A3512895B3CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA74C083065DD6CAC2A394964F2A6C43;
 			remoteInfo = "Pods-Co_pay_PayNotificationSDK_Example";
+		};
+		E826C7BBD4F6C1726EB7AF613B7DF24A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81D213BD50994720DF37335C12B389B6;
+			remoteInfo = AFNetworking;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02E8C5835A6A2C95C583D046EE8D8017 /* Co_pay_PayNotificationSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Co_pay_PayNotificationSDK-dummy.m"; sourceTree = "<group>"; };
-		08A9E812CA4E833AE81E9C5513DD99C5 /* Co_pay_PayNotificationDeviceModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Co_pay_PayNotificationDeviceModel.m; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationDeviceModel.m; sourceTree = "<group>"; };
-		08E33AA694485612CBF34CCE16A2810C /* Pods-Co_pay_PayNotificationSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Co_pay_PayNotificationSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		0CD1F0E9D5FC9AA49E0A9BDE6F8F075E /* Co_pay_PayNotificationStateApiManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Co_pay_PayNotificationStateApiManager.h; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationStateApiManager.h; sourceTree = "<group>"; };
-		0E80D1B17E083DAFAB8657B39B0BFA23 /* Co_pay_PayNotificationFailManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Co_pay_PayNotificationFailManager.h; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationFailManager.h; sourceTree = "<group>"; };
-		205F5C12F3D3D0AB1E3F4F90B04F7AD8 /* Pods-Co_pay_PayNotificationSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Co_pay_PayNotificationSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		25682EBC1AED3CF0377E20722C75C048 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2C5D9411A62610DAEB1FCF82B3C61E87 /* Pods-Co_pay_PayNotificationSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Co_pay_PayNotificationSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2CD028886E87FDED1E54D2AD953FE261 /* Pods_Co_pay_PayNotificationSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Co_pay_PayNotificationSDK_Example.framework; path = "Pods-Co_pay_PayNotificationSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		33435A60CE6144F2F97FF8B98154A56A /* Pods-Co_pay_PayNotificationSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Co_pay_PayNotificationSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		34BA8F416299A2C8FD3B791998FF4DF8 /* NSString+Co_pay_PayNotificationSecure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Co_pay_PayNotificationSecure.m"; path = "Co_pay_PayNotificationSDK/Classes/Core/NSString+Co_pay_PayNotificationSecure.m"; sourceTree = "<group>"; };
-		429D7AFB82DDED52DA2995CB0111FEA2 /* Pods-Co_pay_PayNotificationSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Co_pay_PayNotificationSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4C92EA2F7B996CCDEDDF6A375EF6B751 /* Pods_Co_pay_PayNotificationSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Co_pay_PayNotificationSDK_Tests.framework; path = "Pods-Co_pay_PayNotificationSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		51A0381EDCED1E2AC9693276070517B8 /* Pods-Co_pay_PayNotificationSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Co_pay_PayNotificationSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		63DAA7F807B9262A508C7436EB4D26E4 /* Pods-Co_pay_PayNotificationSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Co_pay_PayNotificationSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		64B7F469475631E3BCBE540CB74FFE8C /* Pods-Co_pay_PayNotificationSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Co_pay_PayNotificationSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6A174B59749F43EF148EF9C0F12F59FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		6B83B41FB5FBF4112406D651A0DAE768 /* Pods-Co_pay_PayNotificationSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Co_pay_PayNotificationSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6E3EBD15C0047752A3231942C06588FF /* Pods-Co_pay_PayNotificationSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Co_pay_PayNotificationSDK_Example.modulemap"; sourceTree = "<group>"; };
-		72B3B0A6D8FF61EDB4EA2CE545BD5289 /* Co_pay_PayNotificationSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Co_pay_PayNotificationSDK.modulemap; sourceTree = "<group>"; };
-		774A2497EA269B1712D9432A7A3FBABB /* Pods-Co_pay_PayNotificationSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Co_pay_PayNotificationSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		77C6EB3D5DE2A1D45AAC013A4D2D17C8 /* Co_pay_PayNotificationSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Co_pay_PayNotificationSDK-prefix.pch"; sourceTree = "<group>"; };
-		85BAD7E335C0A99DF27490527FE0FA73 /* Co_pay_PayNotificationSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Co_pay_PayNotificationSDK-umbrella.h"; sourceTree = "<group>"; };
-		880669227E469FCED0A89FA9A5B8FDE7 /* Co_pay_PayNotificationSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Co_pay_PayNotificationSDK.xcconfig; sourceTree = "<group>"; };
-		8815C292E25B6EE9BF9F163EF1788A1D /* Co_pay_PayNotificationSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Co_pay_PayNotificationSDK.framework; path = Co_pay_PayNotificationSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8AE52E4D9C6FEEB3ECE2EB22100540E9 /* Co_pay_PayNotificationConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Co_pay_PayNotificationConfig.h; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationConfig.h; sourceTree = "<group>"; };
-		926D12D11BEC8F32275B6697C7DC2E72 /* Co_pay_PayNotificationSecureManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Co_pay_PayNotificationSecureManager.m; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationSecureManager.m; sourceTree = "<group>"; };
+		02ABDC194DB32300E71D60D633BE9C46 /* libSAMKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSAMKeychain.a; path = libSAMKeychain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0325529211D8B6CA8FF1BE7A1B3B1D26 /* NSObject+LKDBHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+LKDBHelper.h"; path = "LKDBHelper/Helper/NSObject+LKDBHelper.h"; sourceTree = "<group>"; };
+		063A3D1657CF47BCFF0F1F37A941A862 /* Pods-Co_pay_PayNotificationSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Co_pay_PayNotificationSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		071D29B63C8B30D8A0DE8EF1FA97A532 /* LKDBUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKDBUtils.h; path = LKDBHelper/Helper/LKDBUtils.h; sourceTree = "<group>"; };
+		0764C44C0459DA511475484BD33071D2 /* Co_pay_PayNotificationConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Co_pay_PayNotificationConfig.m; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationConfig.m; sourceTree = "<group>"; };
+		080507EDE04DA560E59952273E596BD2 /* LKDBHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKDBHelper.m; path = LKDBHelper/Helper/LKDBHelper.m; sourceTree = "<group>"; };
+		0830A34177869200BA450C8CDF905611 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		099D6D0326EF447ECB64808240C2992A /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		0F849A406B81E2A4A2CCFDFC9E24B5D0 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		10DB8F91F1F279196F70BA3C7BCC4FEB /* LKDB+Mapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LKDB+Mapping.h"; path = "LKDBHelper/Helper/LKDB+Mapping.h"; sourceTree = "<group>"; };
+		11694EC1A98D615BC597628EA0E62293 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		1186A47305252703CEC307063CEE4F6B /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		17B7202DABB5BCDF502397F0A5526F50 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		1910A3325F9D243E2577F3A8373E5A99 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1CA224622F6EFEFA144A4E6B112CB8E9 /* Pods-Co_pay_PayNotificationSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Co_pay_PayNotificationSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F346764A5B24EB71BFB08605FFA6CAC /* SAMKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAMKeychain-dummy.m"; sourceTree = "<group>"; };
+		1F3F598D83C98061909D965B3013140C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		1F4BE2A48EE78BBF2DFBBD5679D682DB /* LKDBHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKDBHelper.h; path = LKDBHelper/Helper/LKDBHelper.h; sourceTree = "<group>"; };
+		1FAC94ED91B48CCC54E22980DE923094 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		2075EDC4C51CD2522CB91E6D54454226 /* NSString+Co_pay_PayNotificationSecure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Co_pay_PayNotificationSecure.m"; path = "Co_pay_PayNotificationSDK/Classes/Core/NSString+Co_pay_PayNotificationSecure.m"; sourceTree = "<group>"; };
+		220234FD4DC24F805674C0B701897226 /* LKDBHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKDBHelper-prefix.pch"; sourceTree = "<group>"; };
+		2296581808EF273FDF3E6436F5797370 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		2449B8C8A267D59CC81219A411AACD44 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		25A01C1A4FFEE22FE2A7E768D8B3DD8F /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		25EA7883500335C4FE1A0E2FD33ACB69 /* Co_pay_PayNotificationModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Co_pay_PayNotificationModel.m; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationModel.m; sourceTree = "<group>"; };
+		275755DC892806CFA0AC1B000515051F /* NSObject+LKDBHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+LKDBHelper.m"; path = "LKDBHelper/Helper/NSObject+LKDBHelper.m"; sourceTree = "<group>"; };
+		2A82D0AB68F291E2D2997498437CADBC /* LKDBHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LKDBHelper-dummy.m"; sourceTree = "<group>"; };
+		2A9CEEB1DF28CECFA40D754001C2FD38 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		2BBDA822C1B92CBD08B597F6B2D76094 /* libPods-Co_pay_PayNotificationSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Co_pay_PayNotificationSDK_Example.a"; path = "libPods-Co_pay_PayNotificationSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7F555D8CF6C27B702A3EF9A760A8EE /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		2F0E4803139C161A08CA356E7666E23A /* NSString+Co_pay_PayNotificationSecure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Co_pay_PayNotificationSecure.h"; path = "Co_pay_PayNotificationSDK/Classes/Core/NSString+Co_pay_PayNotificationSecure.h"; sourceTree = "<group>"; };
+		302AEAFE1AF350B72AA5976D8C0691E1 /* Pods-Co_pay_PayNotificationSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Co_pay_PayNotificationSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		30DE15897615E9A6687F50862CF9AD28 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		3247FF10BA9372D88DA6788B476C5248 /* LKDBUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKDBUtils.m; path = LKDBHelper/Helper/LKDBUtils.m; sourceTree = "<group>"; };
+		332A4C4E6F06F50B9E400C38226DCEBD /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		333928A39C34598D3C1CD7D53369DA63 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		35FD7A80896FA3162A558D4FD4BE319E /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		3795AA70FBE905F5AEE66D07E89AC733 /* SAMKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychainQuery.h; path = Sources/SAMKeychainQuery.h; sourceTree = "<group>"; };
+		37AF10D87C538DF924ECC6CFB6CE35E1 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		390DBF1C7124EFCF1482C90E45979899 /* Pods-Co_pay_PayNotificationSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Co_pay_PayNotificationSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		3E5875EDC009259B1B316E20A4CE4AEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		43205735ED2620BADE841BC92220C2A4 /* Co_pay_PayNotificationSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Co_pay_PayNotificationSDK-prefix.pch"; sourceTree = "<group>"; };
+		43E992A45BFC02687C8DC5CB671EDC65 /* Pods-Co_pay_PayNotificationSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Co_pay_PayNotificationSDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		4B79DF38B5DBB12CE1BB9FE3C6E00C81 /* Pods-Co_pay_PayNotificationSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Co_pay_PayNotificationSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4E31DD4121CE90755FE462FD08577C69 /* Co_pay_PayNotificationSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Co_pay_PayNotificationSDK.xcconfig; sourceTree = "<group>"; };
+		4F28045316400B58ACB9EA33A99ED98C /* Co_pay_PayNotificationRequestSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Co_pay_PayNotificationRequestSerializer.m; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationRequestSerializer.m; sourceTree = "<group>"; };
+		4FCE944AE372825E03380FDF2AB8A0D7 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		5443DD60A3E0D4A88B44392F3485631E /* SAMKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychain.h; path = Sources/SAMKeychain.h; sourceTree = "<group>"; };
+		55550967B939B3CB313F8D4F13A226D4 /* SQLCipher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLCipher-prefix.pch"; sourceTree = "<group>"; };
+		56A2A66B5344062632AFE5AFC633A8C9 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		592B3B6C2E65C20934AD7D034F5EA831 /* libPods-Co_pay_PayNotificationSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Co_pay_PayNotificationSDK_Tests.a"; path = "libPods-Co_pay_PayNotificationSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9A118A4E6C385F46A2D94F8BCC3959 /* Pods-Co_pay_PayNotificationSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Co_pay_PayNotificationSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5EA47FDBF94BEC2127D712D74AB9AE22 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		5EBF84706167326A35B3387BB84A9F76 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		60746279FE95DD141075B99475E574C8 /* Co_pay_PayNotificationHTTPResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Co_pay_PayNotificationHTTPResponse.m; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationHTTPResponse.m; sourceTree = "<group>"; };
+		665C6CFC0576CEEEAC155E2B25B96B3F /* SAMKeychain.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SAMKeychain.bundle; path = Support/SAMKeychain.bundle; sourceTree = "<group>"; };
+		68901FC56B9C709117AF2E0093DC1B17 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		6B1FB206C58FAF1BDB526B376E8400A5 /* NSObject+LKModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+LKModel.m"; path = "LKDBHelper/Helper/NSObject+LKModel.m"; sourceTree = "<group>"; };
+		70641AC7CBED5915F0CE715E79E5E791 /* SQLCipher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLCipher-dummy.m"; sourceTree = "<group>"; };
+		70BD4FB015C10E38FD22E8D8FDE230D6 /* SAMKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychain.m; path = Sources/SAMKeychain.m; sourceTree = "<group>"; };
+		70D0BCB4A1D8760C911C0F4DD01507D7 /* Co_pay_PayNotificationHTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Co_pay_PayNotificationHTTPResponse.h; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationHTTPResponse.h; sourceTree = "<group>"; };
+		71D3C943E732CDED27AA5EA9AACF9375 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7354E053D0AD26B1ECF2016D0E681A31 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		73F8BBE8ED4D6689767505E09DBE8125 /* Co_pay_PayNotificationFailManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Co_pay_PayNotificationFailManager.m; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationFailManager.m; sourceTree = "<group>"; };
+		7856E52ACBAAE3C20DF290BC4F703904 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		7B213819948BC076A549545D50762731 /* LKDBHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKDBHelper.xcconfig; sourceTree = "<group>"; };
+		7E0F5DD10A726454C18F4E982FF2CECF /* Co_pay_PayNotificationSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Co_pay_PayNotificationSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7F4D5A2E263A5E8A0D5D6F0052704B07 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		7F7111DF007A6F47D0946B3D9015A3CC /* libCo_pay_PayNotificationSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCo_pay_PayNotificationSDK.a; path = libCo_pay_PayNotificationSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		82415473818141F7457B976205A0CF3C /* Co_pay_PayNotificationSecureManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Co_pay_PayNotificationSecureManager.h; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationSecureManager.h; sourceTree = "<group>"; };
+		83073CED8A654FB00384513E82DE48E6 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		83D481A99C8545CB0CA0E22E2AEE3EA0 /* SQLCipher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLCipher.xcconfig; sourceTree = "<group>"; };
+		886915789161FC202AA444C8DC6C6521 /* Pods-Co_pay_PayNotificationSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Co_pay_PayNotificationSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		897BC771ED7CC2E328F76C58914CC6A0 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		89D5900B36219FC73DE4D555A0C5BC92 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		8A0A38641F693381CE148ECA77E21CCA /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		8AB45F65F464CE35214B0F893ED8B56E /* sqlite3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		8CE5AC8961F6E5280C647418B8973043 /* SAMKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-prefix.pch"; sourceTree = "<group>"; };
+		8D16F1D818A8D16F5B20DB7748FF7A81 /* Pods-Co_pay_PayNotificationSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Co_pay_PayNotificationSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		906FE72BE62CAF77AD8F4B50F7129D59 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		939D2E37D1FAE3BE6E02EB5AAE53375B /* Co_pay_PayNotificationConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Co_pay_PayNotificationConfig.h; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationConfig.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97BDE93948155840ED9A89B57B4BA12F /* Pods-Co_pay_PayNotificationSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Co_pay_PayNotificationSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9E2951A6D43FE723503D26675E90DF59 /* Co_pay_PayNotificationHTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Co_pay_PayNotificationHTTPResponse.h; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationHTTPResponse.h; sourceTree = "<group>"; };
-		9E8944A0C12C797FD93A41C21DE8B255 /* Co_pay_PayNotificationConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Co_pay_PayNotificationConfig.m; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationConfig.m; sourceTree = "<group>"; };
-		A407162B9F4E516623962356F156B352 /* Co_pay_PayNotificationHTTPResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Co_pay_PayNotificationHTTPResponse.m; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationHTTPResponse.m; sourceTree = "<group>"; };
-		AA3387B6AAB0A9F0C2516EFBCBAB441D /* Co_pay_PayNotificationFailManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Co_pay_PayNotificationFailManager.m; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationFailManager.m; sourceTree = "<group>"; };
-		AA82CDE087D3702B030FFB937E396834 /* Co_pay_PayNotificationStateApiManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Co_pay_PayNotificationStateApiManager.m; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationStateApiManager.m; sourceTree = "<group>"; };
-		B9A7C3C6E010258D36A221131356B4B5 /* Pods-Co_pay_PayNotificationSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Co_pay_PayNotificationSDK_Example-resources.sh"; sourceTree = "<group>"; };
-		BB0C276407A2F88F0108B0E450D03F56 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD1A823E27D0A52BD15F3384EDE6A40F /* Co_pay_PayNotificationDeviceModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Co_pay_PayNotificationDeviceModel.h; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationDeviceModel.h; sourceTree = "<group>"; };
-		D42284915452E5007B70116E684911F5 /* Pods-Co_pay_PayNotificationSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Co_pay_PayNotificationSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DBC842F33F6AEFB7C9D8F4748A469167 /* Co_pay_PayNotificationModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Co_pay_PayNotificationModel.h; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationModel.h; sourceTree = "<group>"; };
-		DF4C6143D8E0554916009C1D1A560287 /* Co_pay_PayNotificationSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Co_pay_PayNotificationSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E3A7769088B5158FCE7877762EEC0DF7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E71F3EC3C049F899BC1E165113AB3B9D /* Co_pay_PayNotificationRequestSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Co_pay_PayNotificationRequestSerializer.m; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationRequestSerializer.m; sourceTree = "<group>"; };
-		E7CEEE4D8AEC7573A06244BD872C0630 /* Co_pay_PayNotificationModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Co_pay_PayNotificationModel.m; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationModel.m; sourceTree = "<group>"; };
-		E7EE03EF570B5F7FD605462EF3DC2A46 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9A2702339CD4874C99CFACE2262F3CA /* NSString+Co_pay_PayNotificationSecure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Co_pay_PayNotificationSecure.h"; path = "Co_pay_PayNotificationSDK/Classes/Core/NSString+Co_pay_PayNotificationSecure.h"; sourceTree = "<group>"; };
-		EBA1245A5452CF5A898C3A21809C2774 /* Pods-Co_pay_PayNotificationSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Co_pay_PayNotificationSDK_Tests-resources.sh"; sourceTree = "<group>"; };
-		F9BD67CFBD99FF8029BAFE4962BE994F /* Pods-Co_pay_PayNotificationSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Co_pay_PayNotificationSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		FBB8A2ACF438C50232D06263E2AB26A7 /* Pods-Co_pay_PayNotificationSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Co_pay_PayNotificationSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FD394D8E06A8EF6F38E3F483156FC185 /* Co_pay_PayNotificationRequestSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Co_pay_PayNotificationRequestSerializer.h; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationRequestSerializer.h; sourceTree = "<group>"; };
-		FD9FF54C69FAE4A6BAE442D7284660C7 /* Co_pay_PayNotificationSecureManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Co_pay_PayNotificationSecureManager.h; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationSecureManager.h; sourceTree = "<group>"; };
-		FEF55CA303514FB9A8FD8484A2B3895F /* Pods-Co_pay_PayNotificationSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Co_pay_PayNotificationSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93CA95DBC2E7E4807D68A93B8EEAAFE5 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		95311D04C6D05D03C6BF14A3262AE9E3 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		95998215FEF32A86530BC2642424C80A /* Pods-Co_pay_PayNotificationSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Co_pay_PayNotificationSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		96F49E117EC2E5527054E07E60915EA1 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		979913DD18026D746DC2E63E86537545 /* NSObject+LKModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+LKModel.h"; path = "LKDBHelper/Helper/NSObject+LKModel.h"; sourceTree = "<group>"; };
+		9990907EA5CAFF4C26576A664DE644A3 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		99C8A1B8BBDEDC42A49B8C2F583F090A /* Co_pay_PayNotificationStateApiManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Co_pay_PayNotificationStateApiManager.m; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationStateApiManager.m; sourceTree = "<group>"; };
+		A4F1D6472504B90FF4813D0884634C45 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		A722133B95CD990B448D13CF16669EA0 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		A73A9026E5E8CE414ADCCB2F4B435DA3 /* Co_pay_PayNotificationFailManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Co_pay_PayNotificationFailManager.h; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationFailManager.h; sourceTree = "<group>"; };
+		AE7D0F4C8E18EB4F2E50D4B134078E04 /* CSStatistics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CSStatistics.framework; path = ios/CSStatistics.framework; sourceTree = "<group>"; };
+		AEE1A4D20DED71B6D576C929FBFE084A /* Co_pay_PayNotificationRequestSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Co_pay_PayNotificationRequestSerializer.h; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationRequestSerializer.h; sourceTree = "<group>"; };
+		AFB8AD3F38B0CEE4E93D54B251BAFEB4 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		B2ACF1C8341C59D053237C7C8932B836 /* Pods-Co_pay_PayNotificationSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Co_pay_PayNotificationSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		B5C10C64DF2C6C44B37B7B2C2BBCE2F1 /* Co_pay_PayNotificationSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Co_pay_PayNotificationSDK-dummy.m"; sourceTree = "<group>"; };
+		BD3DE3D4AB4F5B4A0E1489F750B45F86 /* Co_pay_PayNotificationDeviceModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Co_pay_PayNotificationDeviceModel.h; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationDeviceModel.h; sourceTree = "<group>"; };
+		BD7F3E32D5D077B31AEA0464A7F48409 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		C0EA67C54AB94285C22A72B051D6D145 /* LKDB+Mapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LKDB+Mapping.m"; path = "LKDBHelper/Helper/LKDB+Mapping.m"; sourceTree = "<group>"; };
+		C14F0F0C4D1B023AD9E7EF7C42C0DADB /* libSQLCipher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSQLCipher.a; path = libSQLCipher.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A0CB5549A6169B769CEEA675CDCD20 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		C4450646AF134C5660E2EA6146879662 /* SAMKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMKeychain.xcconfig; sourceTree = "<group>"; };
+		C62500F327321DBF9FFDDFA11AAA7E29 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		C7F6EE264E89093CA3CCBF405179B6EA /* Co_pay_PayNotificationSecureManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Co_pay_PayNotificationSecureManager.m; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationSecureManager.m; sourceTree = "<group>"; };
+		CC317EAAA3409FCD243AF8F5FCBC3686 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		CCBB6ADF5EC964D1D24D508229EF6695 /* Co_pay_PayNotificationStateApiManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Co_pay_PayNotificationStateApiManager.h; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationStateApiManager.h; sourceTree = "<group>"; };
+		D1D4852A9D40E58B1D62BFE943E91DEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D277E7C1E012F14F48965BFE5B7CC783 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		D4225092C0C6CAB0238FB7377BD6D00C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		D560AB5C65DB5C932F363B832D3A49C2 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		D69EB4D3B87FCC9EA4DD6D34CF2BB2C3 /* libLKDBHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLKDBHelper.a; path = libLKDBHelper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DEC35B6856A24527D91C2B373CCC45 /* Pods-Co_pay_PayNotificationSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Co_pay_PayNotificationSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		DE8B6C6925A765363C0A332AA9B253D1 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		E4E81880E7D9AE558F620687763F93CC /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		E57A9260666B5786DE30C5B3147E21A8 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E713EA38B3C7224C5A513D8971FFC498 /* SAMKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychainQuery.m; path = Sources/SAMKeychainQuery.m; sourceTree = "<group>"; };
+		E8C651544831CA3E5CAC13C469DFD69B /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		EB69127389916F69015C7856DF9A1431 /* Co_pay_PayNotificationModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Co_pay_PayNotificationModel.h; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationModel.h; sourceTree = "<group>"; };
+		EB863D41F5F0B0D11D184F48558B7322 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		F09259E0429AA077A3F548D8DE598E49 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		F3E0777F916F22BD5BC35785909F2789 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		F4B85222F2919986867F8E5D9B0511ED /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		F62AFE31AD1FE78B52978051F16CF3B2 /* Pods-Co_pay_PayNotificationSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Co_pay_PayNotificationSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F7A241C8DEC2DDA393D9477937F7831A /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		F8E5C12468B2E0FDFEB6E3B7BFC3A256 /* sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; path = sqlite3.c; sourceTree = "<group>"; };
+		F963969FC8A8E0853325E1E1AC24F26C /* Pods-Co_pay_PayNotificationSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Co_pay_PayNotificationSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFCFADF55FF09C03F66B778CD0B64782 /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFMDB.a; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFA984D70CB4B7B7BDFB4839056C67B /* Co_pay_PayNotificationDeviceModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Co_pay_PayNotificationDeviceModel.m; path = Co_pay_PayNotificationSDK/Classes/Core/Co_pay_PayNotificationDeviceModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		12A77204295D45ED7241D58AD246ACEA /* Frameworks */ = {
+		2190CA1BD1F4C7F845DCE9DEC646C53A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BB954788FE6B31F386F023CE448E92C /* Foundation.framework in Frameworks */,
+				E749E7B1ECC21CA0201003BCF5F52B32 /* Foundation.framework in Frameworks */,
+				564B5932A4559FCB835A4D83D0CAE0A1 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B1A2C5AE77AD362CD1CA7A3BB275CD9 /* Frameworks */ = {
+		2D76FCA450C5C417CE2A17C52B62C661 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F191913EE9940EF63BD1AA6A8094BCC /* Foundation.framework in Frameworks */,
+				5304221AC258DD68E730B0853DADA32F /* CoreGraphics.framework in Frameworks */,
+				8874ADF0D2263BAD80CA3E8DF4EA8802 /* MobileCoreServices.framework in Frameworks */,
+				626AEB8B98CDDC9A370135C04BBF5BD2 /* Security.framework in Frameworks */,
+				BAD746DBE96E931B5C5FDB00C6BEF1A4 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1307A8CCC70FDB05BF140D2D6FB1590 /* Frameworks */ = {
+		33BF8BD8E8CC26876C816142983E2341 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				617B2E5A932EFA4396C4363DD8FC37FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3797AE00F7B5CA91AE9E5AF2F6AA35D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433218CA807310959C7B36A466EBD098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654B6149847C14C90EFD800D67AD79E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A0EB8ACE8F9AD253E4AD7E1B4EE33E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F479CCBA7F60AF93EE45D8AE3D171524 /* Foundation.framework in Frameworks */,
+				3F4398EF02DEF29A2E116F33B7EA649E /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1D98D88FA69A67728D44AF1E6A4B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0653C60E5361C1A3EA20E2A9D9064942 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				665C6CFC0576CEEEAC155E2B25B96B3F /* SAMKeychain.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		082F64C19F2768A1A1726FE368023E02 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BA19210E749D1702ED9468B494052DA1 /* Co_pay_PayNotificationSDK */,
+				747163056E7EFB439E67929B804FCDDF /* Co_pay_PayNotificationSDK */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		10ADD0EAB1C7A0667522DC2CFE56E745 /* Pods-Co_pay_PayNotificationSDK_Example */ = {
+		0934B86B425FB240ABF15CBE65DE02D6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E3A7769088B5158FCE7877762EEC0DF7 /* Info.plist */,
-				6E3EBD15C0047752A3231942C06588FF /* Pods-Co_pay_PayNotificationSDK_Example.modulemap */,
-				D42284915452E5007B70116E684911F5 /* Pods-Co_pay_PayNotificationSDK_Example-acknowledgements.markdown */,
-				51A0381EDCED1E2AC9693276070517B8 /* Pods-Co_pay_PayNotificationSDK_Example-acknowledgements.plist */,
-				F9BD67CFBD99FF8029BAFE4962BE994F /* Pods-Co_pay_PayNotificationSDK_Example-dummy.m */,
-				FEF55CA303514FB9A8FD8484A2B3895F /* Pods-Co_pay_PayNotificationSDK_Example-frameworks.sh */,
-				B9A7C3C6E010258D36A221131356B4B5 /* Pods-Co_pay_PayNotificationSDK_Example-resources.sh */,
-				774A2497EA269B1712D9432A7A3FBABB /* Pods-Co_pay_PayNotificationSDK_Example-umbrella.h */,
-				64B7F469475631E3BCBE540CB74FFE8C /* Pods-Co_pay_PayNotificationSDK_Example.debug.xcconfig */,
-				2C5D9411A62610DAEB1FCF82B3C61E87 /* Pods-Co_pay_PayNotificationSDK_Example.release.xcconfig */,
+				C4450646AF134C5660E2EA6146879662 /* SAMKeychain.xcconfig */,
+				1F346764A5B24EB71BFB08605FFA6CAC /* SAMKeychain-dummy.m */,
+				8CE5AC8961F6E5280C647418B8973043 /* SAMKeychain-prefix.pch */,
 			);
-			name = "Pods-Co_pay_PayNotificationSDK_Example";
-			path = "Target Support Files/Pods-Co_pay_PayNotificationSDK_Example";
+			name = "Support Files";
+			path = "../Target Support Files/SAMKeychain";
 			sourceTree = "<group>";
 		};
-		3FB7CC1700C2E4A6651245ACD864F62A /* Pod */ = {
+		0FF9D6C8E297AF03E1388BD3F13D7AC6 /* standard */ = {
 			isa = PBXGroup;
 			children = (
-				DF4C6143D8E0554916009C1D1A560287 /* Co_pay_PayNotificationSDK.podspec */,
-				6A174B59749F43EF148EF9C0F12F59FF /* LICENSE */,
-				25682EBC1AED3CF0377E20722C75C048 /* README.md */,
 			);
-			name = Pod;
+			name = standard;
 			sourceTree = "<group>";
 		};
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+		1EA241E9FF0B742BE938D07848B89588 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+				83073CED8A654FB00384513E82DE48E6 /* AFNetworking.h */,
+				9C76FFBD4E85D8C616150AA93D42822F /* NSURLSession */,
+				56E6D14E5B9A49B8E7EA9B698582EF7C /* Reachability */,
+				8EEC84DD9BF93461521B62F94438EF80 /* Security */,
+				A0C7425110F43A527BAC004E2CBD1E26 /* Serialization */,
+				FC86969E99EDEF028168417B2CFF9BC5 /* Support Files */,
+				8893301BB86B7492A2A78F6F66FADF73 /* UIKit */,
 			);
-			name = iOS;
+			name = AFNetworking;
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
-		58D8553E3388610393E146B06291F12E /* Targets Support Files */ = {
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				10ADD0EAB1C7A0667522DC2CFE56E745 /* Pods-Co_pay_PayNotificationSDK_Example */,
-				E034A1B378BE36B98A1360FCF35B3313 /* Pods-Co_pay_PayNotificationSDK_Tests */,
+				F121B3A8D7DD2E460DFEC349E898D11A /* iOS */,
 			);
-			name = "Targets Support Files";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23167117A550DF41314DC76D0C8731FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EA241E9FF0B742BE938D07848B89588 /* AFNetworking */,
+				868ED370BB18AD391ABC332E818F5A0C /* CSStatistics */,
+				3D2F4FAA4362AB37E73CCFD7D50E8E47 /* FMDB */,
+				FC679873F0639017FCE88BF681DAF9EE /* LKDBHelper */,
+				F21D12027B0C56F3CE3C37138AC498C2 /* SAMKeychain */,
+				7D53C143EE7A3E9ADD4960B335EF6D10 /* SQLCipher */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		244558B4C0121FC821CEB11BD8004BA0 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				F8E5C12468B2E0FDFEB6E3B7BFC3A256 /* sqlite3.c */,
+				8AB45F65F464CE35214B0F893ED8B56E /* sqlite3.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		3D2F4FAA4362AB37E73CCFD7D50E8E47 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				C6DE267FA7BE30DA89142CCA3105EF36 /* SQLCipher */,
+				0FF9D6C8E297AF03E1388BD3F13D7AC6 /* standard */,
+				8BFE585963190860A1E0620483B64EBF /* Support Files */,
+			);
+			name = FMDB;
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		3EF944E18FCCE72A0909D0F269A81C3A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83D481A99C8545CB0CA0E22E2AEE3EA0 /* SQLCipher.xcconfig */,
+				70641AC7CBED5915F0CE715E79E5E791 /* SQLCipher-dummy.m */,
+				55550967B939B3CB313F8D4F13A226D4 /* SQLCipher-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLCipher";
+			sourceTree = "<group>";
+		};
+		47E266B5AFD4F816D6E455C75DEFB62F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E31DD4121CE90755FE462FD08577C69 /* Co_pay_PayNotificationSDK.xcconfig */,
+				B5C10C64DF2C6C44B37B7B2C2BBCE2F1 /* Co_pay_PayNotificationSDK-dummy.m */,
+				43205735ED2620BADE841BC92220C2A4 /* Co_pay_PayNotificationSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Co_pay_PayNotificationSDK";
+			sourceTree = "<group>";
+		};
+		56E6D14E5B9A49B8E7EA9B698582EF7C /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				A722133B95CD990B448D13CF16669EA0 /* AFNetworkReachabilityManager.h */,
+				8A0A38641F693381CE148ECA77E21CCA /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		747163056E7EFB439E67929B804FCDDF /* Co_pay_PayNotificationSDK */ = {
+			isa = PBXGroup;
+			children = (
+				939D2E37D1FAE3BE6E02EB5AAE53375B /* Co_pay_PayNotificationConfig.h */,
+				0764C44C0459DA511475484BD33071D2 /* Co_pay_PayNotificationConfig.m */,
+				BD3DE3D4AB4F5B4A0E1489F750B45F86 /* Co_pay_PayNotificationDeviceModel.h */,
+				FFFA984D70CB4B7B7BDFB4839056C67B /* Co_pay_PayNotificationDeviceModel.m */,
+				A73A9026E5E8CE414ADCCB2F4B435DA3 /* Co_pay_PayNotificationFailManager.h */,
+				73F8BBE8ED4D6689767505E09DBE8125 /* Co_pay_PayNotificationFailManager.m */,
+				70D0BCB4A1D8760C911C0F4DD01507D7 /* Co_pay_PayNotificationHTTPResponse.h */,
+				60746279FE95DD141075B99475E574C8 /* Co_pay_PayNotificationHTTPResponse.m */,
+				EB69127389916F69015C7856DF9A1431 /* Co_pay_PayNotificationModel.h */,
+				25EA7883500335C4FE1A0E2FD33ACB69 /* Co_pay_PayNotificationModel.m */,
+				AEE1A4D20DED71B6D576C929FBFE084A /* Co_pay_PayNotificationRequestSerializer.h */,
+				4F28045316400B58ACB9EA33A99ED98C /* Co_pay_PayNotificationRequestSerializer.m */,
+				82415473818141F7457B976205A0CF3C /* Co_pay_PayNotificationSecureManager.h */,
+				C7F6EE264E89093CA3CCBF405179B6EA /* Co_pay_PayNotificationSecureManager.m */,
+				CCBB6ADF5EC964D1D24D508229EF6695 /* Co_pay_PayNotificationStateApiManager.h */,
+				99C8A1B8BBDEDC42A49B8C2F583F090A /* Co_pay_PayNotificationStateApiManager.m */,
+				2F0E4803139C161A08CA356E7666E23A /* NSString+Co_pay_PayNotificationSecure.h */,
+				2075EDC4C51CD2522CB91E6D54454226 /* NSString+Co_pay_PayNotificationSecure.m */,
+				ED3BE3E904488C5BAD2EC697BF16A2F0 /* Pod */,
+				47E266B5AFD4F816D6E455C75DEFB62F /* Support Files */,
+			);
+			name = Co_pay_PayNotificationSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		74B3685C677EFF79B3EC7FFB33CF0D11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE7D0F4C8E18EB4F2E50D4B134078E04 /* CSStatistics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D53C143EE7A3E9ADD4960B335EF6D10 /* SQLCipher */ = {
+			isa = PBXGroup;
+			children = (
+				244558B4C0121FC821CEB11BD8004BA0 /* common */,
+				3EF944E18FCCE72A0909D0F269A81C3A /* Support Files */,
+			);
+			name = SQLCipher;
+			path = SQLCipher;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -194,184 +576,500 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				082F64C19F2768A1A1726FE368023E02 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				F09F7ECA0F7FB302A41317D242AC2655 /* Products */,
-				58D8553E3388610393E146B06291F12E /* Targets Support Files */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				23167117A550DF41314DC76D0C8731FF /* Pods */,
+				B9B0DCD28612F370E52CB4F904BBCBA0 /* Products */,
+				D663C81009C94A12181CC4DF8CE847B7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		822713C1D343CFFED485E261EA802042 /* Support Files */ = {
+		868ED370BB18AD391ABC332E818F5A0C /* CSStatistics */ = {
 			isa = PBXGroup;
 			children = (
-				72B3B0A6D8FF61EDB4EA2CE545BD5289 /* Co_pay_PayNotificationSDK.modulemap */,
-				880669227E469FCED0A89FA9A5B8FDE7 /* Co_pay_PayNotificationSDK.xcconfig */,
-				02E8C5835A6A2C95C583D046EE8D8017 /* Co_pay_PayNotificationSDK-dummy.m */,
-				77C6EB3D5DE2A1D45AAC013A4D2D17C8 /* Co_pay_PayNotificationSDK-prefix.pch */,
-				85BAD7E335C0A99DF27490527FE0FA73 /* Co_pay_PayNotificationSDK-umbrella.h */,
-				BB0C276407A2F88F0108B0E450D03F56 /* Info.plist */,
+				74B3685C677EFF79B3EC7FFB33CF0D11 /* Frameworks */,
+			);
+			name = CSStatistics;
+			path = CSStatistics;
+			sourceTree = "<group>";
+		};
+		8893301BB86B7492A2A78F6F66FADF73 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				9990907EA5CAFF4C26576A664DE644A3 /* AFAutoPurgingImageCache.h */,
+				89D5900B36219FC73DE4D555A0C5BC92 /* AFAutoPurgingImageCache.m */,
+				906FE72BE62CAF77AD8F4B50F7129D59 /* AFImageDownloader.h */,
+				37AF10D87C538DF924ECC6CFB6CE35E1 /* AFImageDownloader.m */,
+				96F49E117EC2E5527054E07E60915EA1 /* AFNetworkActivityIndicatorManager.h */,
+				17B7202DABB5BCDF502397F0A5526F50 /* AFNetworkActivityIndicatorManager.m */,
+				D560AB5C65DB5C932F363B832D3A49C2 /* UIActivityIndicatorView+AFNetworking.h */,
+				93CA95DBC2E7E4807D68A93B8EEAAFE5 /* UIActivityIndicatorView+AFNetworking.m */,
+				CC317EAAA3409FCD243AF8F5FCBC3686 /* UIButton+AFNetworking.h */,
+				C1A0CB5549A6169B769CEEA675CDCD20 /* UIButton+AFNetworking.m */,
+				2A9CEEB1DF28CECFA40D754001C2FD38 /* UIImage+AFNetworking.h */,
+				25A01C1A4FFEE22FE2A7E768D8B3DD8F /* UIImageView+AFNetworking.h */,
+				BD7F3E32D5D077B31AEA0464A7F48409 /* UIImageView+AFNetworking.m */,
+				5EA47FDBF94BEC2127D712D74AB9AE22 /* UIKit+AFNetworking.h */,
+				EB863D41F5F0B0D11D184F48558B7322 /* UIProgressView+AFNetworking.h */,
+				C62500F327321DBF9FFDDFA11AAA7E29 /* UIProgressView+AFNetworking.m */,
+				AFB8AD3F38B0CEE4E93D54B251BAFEB4 /* UIRefreshControl+AFNetworking.h */,
+				68901FC56B9C709117AF2E0093DC1B17 /* UIRefreshControl+AFNetworking.m */,
+				D277E7C1E012F14F48965BFE5B7CC783 /* UIWebView+AFNetworking.h */,
+				35FD7A80896FA3162A558D4FD4BE319E /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		8BFE585963190860A1E0620483B64EBF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FCE944AE372825E03380FDF2AB8A0D7 /* FMDB.xcconfig */,
+				E4E81880E7D9AE558F620687763F93CC /* FMDB-dummy.m */,
+				95311D04C6D05D03C6BF14A3262AE9E3 /* FMDB-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Co_pay_PayNotificationSDK";
+			path = "../Target Support Files/FMDB";
 			sourceTree = "<group>";
 		};
-		BA19210E749D1702ED9468B494052DA1 /* Co_pay_PayNotificationSDK */ = {
+		8EEC84DD9BF93461521B62F94438EF80 /* Security */ = {
 			isa = PBXGroup;
 			children = (
-				8AE52E4D9C6FEEB3ECE2EB22100540E9 /* Co_pay_PayNotificationConfig.h */,
-				9E8944A0C12C797FD93A41C21DE8B255 /* Co_pay_PayNotificationConfig.m */,
-				BD1A823E27D0A52BD15F3384EDE6A40F /* Co_pay_PayNotificationDeviceModel.h */,
-				08A9E812CA4E833AE81E9C5513DD99C5 /* Co_pay_PayNotificationDeviceModel.m */,
-				0E80D1B17E083DAFAB8657B39B0BFA23 /* Co_pay_PayNotificationFailManager.h */,
-				AA3387B6AAB0A9F0C2516EFBCBAB441D /* Co_pay_PayNotificationFailManager.m */,
-				9E2951A6D43FE723503D26675E90DF59 /* Co_pay_PayNotificationHTTPResponse.h */,
-				A407162B9F4E516623962356F156B352 /* Co_pay_PayNotificationHTTPResponse.m */,
-				DBC842F33F6AEFB7C9D8F4748A469167 /* Co_pay_PayNotificationModel.h */,
-				E7CEEE4D8AEC7573A06244BD872C0630 /* Co_pay_PayNotificationModel.m */,
-				FD394D8E06A8EF6F38E3F483156FC185 /* Co_pay_PayNotificationRequestSerializer.h */,
-				E71F3EC3C049F899BC1E165113AB3B9D /* Co_pay_PayNotificationRequestSerializer.m */,
-				FD9FF54C69FAE4A6BAE442D7284660C7 /* Co_pay_PayNotificationSecureManager.h */,
-				926D12D11BEC8F32275B6697C7DC2E72 /* Co_pay_PayNotificationSecureManager.m */,
-				0CD1F0E9D5FC9AA49E0A9BDE6F8F075E /* Co_pay_PayNotificationStateApiManager.h */,
-				AA82CDE087D3702B030FFB937E396834 /* Co_pay_PayNotificationStateApiManager.m */,
-				E9A2702339CD4874C99CFACE2262F3CA /* NSString+Co_pay_PayNotificationSecure.h */,
-				34BA8F416299A2C8FD3B791998FF4DF8 /* NSString+Co_pay_PayNotificationSecure.m */,
-				3FB7CC1700C2E4A6651245ACD864F62A /* Pod */,
-				822713C1D343CFFED485E261EA802042 /* Support Files */,
+				2E7F555D8CF6C27B702A3EF9A760A8EE /* AFSecurityPolicy.h */,
+				E8C651544831CA3E5CAC13C469DFD69B /* AFSecurityPolicy.m */,
 			);
-			name = Co_pay_PayNotificationSDK;
-			path = ../..;
+			name = Security;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		911AAA74613B8BF55C168736AE6FE0F1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
+				7B213819948BC076A549545D50762731 /* LKDBHelper.xcconfig */,
+				2A82D0AB68F291E2D2997498437CADBC /* LKDBHelper-dummy.m */,
+				220234FD4DC24F805674C0B701897226 /* LKDBHelper-prefix.pch */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/LKDBHelper";
 			sourceTree = "<group>";
 		};
-		E034A1B378BE36B98A1360FCF35B3313 /* Pods-Co_pay_PayNotificationSDK_Tests */ = {
+		9C76FFBD4E85D8C616150AA93D42822F /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
-				E7EE03EF570B5F7FD605462EF3DC2A46 /* Info.plist */,
-				08E33AA694485612CBF34CCE16A2810C /* Pods-Co_pay_PayNotificationSDK_Tests.modulemap */,
-				429D7AFB82DDED52DA2995CB0111FEA2 /* Pods-Co_pay_PayNotificationSDK_Tests-acknowledgements.markdown */,
-				FBB8A2ACF438C50232D06263E2AB26A7 /* Pods-Co_pay_PayNotificationSDK_Tests-acknowledgements.plist */,
-				205F5C12F3D3D0AB1E3F4F90B04F7AD8 /* Pods-Co_pay_PayNotificationSDK_Tests-dummy.m */,
-				63DAA7F807B9262A508C7436EB4D26E4 /* Pods-Co_pay_PayNotificationSDK_Tests-frameworks.sh */,
-				EBA1245A5452CF5A898C3A21809C2774 /* Pods-Co_pay_PayNotificationSDK_Tests-resources.sh */,
-				33435A60CE6144F2F97FF8B98154A56A /* Pods-Co_pay_PayNotificationSDK_Tests-umbrella.h */,
-				97BDE93948155840ED9A89B57B4BA12F /* Pods-Co_pay_PayNotificationSDK_Tests.debug.xcconfig */,
-				6B83B41FB5FBF4112406D651A0DAE768 /* Pods-Co_pay_PayNotificationSDK_Tests.release.xcconfig */,
+				2449B8C8A267D59CC81219A411AACD44 /* AFHTTPSessionManager.h */,
+				56A2A66B5344062632AFE5AFC633A8C9 /* AFHTTPSessionManager.m */,
+				F3E0777F916F22BD5BC35785909F2789 /* AFURLSessionManager.h */,
+				30DE15897615E9A6687F50862CF9AD28 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		A0C7425110F43A527BAC004E2CBD1E26 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				F4B85222F2919986867F8E5D9B0511ED /* AFURLRequestSerialization.h */,
+				F09259E0429AA077A3F548D8DE598E49 /* AFURLRequestSerialization.m */,
+				DE8B6C6925A765363C0A332AA9B253D1 /* AFURLResponseSerialization.h */,
+				0830A34177869200BA450C8CDF905611 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		A3CC36B3D502A50296B0C7FCDBE36B97 /* Pods-Co_pay_PayNotificationSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F963969FC8A8E0853325E1E1AC24F26C /* Pods-Co_pay_PayNotificationSDK_Tests-acknowledgements.markdown */,
+				302AEAFE1AF350B72AA5976D8C0691E1 /* Pods-Co_pay_PayNotificationSDK_Tests-acknowledgements.plist */,
+				D9DEC35B6856A24527D91C2B373CCC45 /* Pods-Co_pay_PayNotificationSDK_Tests-dummy.m */,
+				8D16F1D818A8D16F5B20DB7748FF7A81 /* Pods-Co_pay_PayNotificationSDK_Tests-frameworks.sh */,
+				43E992A45BFC02687C8DC5CB671EDC65 /* Pods-Co_pay_PayNotificationSDK_Tests-resources.sh */,
+				1CA224622F6EFEFA144A4E6B112CB8E9 /* Pods-Co_pay_PayNotificationSDK_Tests.debug.xcconfig */,
+				4B79DF38B5DBB12CE1BB9FE3C6E00C81 /* Pods-Co_pay_PayNotificationSDK_Tests.release.xcconfig */,
 			);
 			name = "Pods-Co_pay_PayNotificationSDK_Tests";
 			path = "Target Support Files/Pods-Co_pay_PayNotificationSDK_Tests";
 			sourceTree = "<group>";
 		};
-		F09F7ECA0F7FB302A41317D242AC2655 /* Products */ = {
+		B84BF67604B090CF88F61F6090B61FA5 /* Pods-Co_pay_PayNotificationSDK_Example */ = {
 			isa = PBXGroup;
 			children = (
-				8815C292E25B6EE9BF9F163EF1788A1D /* Co_pay_PayNotificationSDK.framework */,
-				2CD028886E87FDED1E54D2AD953FE261 /* Pods_Co_pay_PayNotificationSDK_Example.framework */,
-				4C92EA2F7B996CCDEDDF6A375EF6B751 /* Pods_Co_pay_PayNotificationSDK_Tests.framework */,
+				5E9A118A4E6C385F46A2D94F8BCC3959 /* Pods-Co_pay_PayNotificationSDK_Example-acknowledgements.markdown */,
+				886915789161FC202AA444C8DC6C6521 /* Pods-Co_pay_PayNotificationSDK_Example-acknowledgements.plist */,
+				390DBF1C7124EFCF1482C90E45979899 /* Pods-Co_pay_PayNotificationSDK_Example-dummy.m */,
+				F62AFE31AD1FE78B52978051F16CF3B2 /* Pods-Co_pay_PayNotificationSDK_Example-frameworks.sh */,
+				B2ACF1C8341C59D053237C7C8932B836 /* Pods-Co_pay_PayNotificationSDK_Example-resources.sh */,
+				063A3D1657CF47BCFF0F1F37A941A862 /* Pods-Co_pay_PayNotificationSDK_Example.debug.xcconfig */,
+				95998215FEF32A86530BC2642424C80A /* Pods-Co_pay_PayNotificationSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-Co_pay_PayNotificationSDK_Example";
+			path = "Target Support Files/Pods-Co_pay_PayNotificationSDK_Example";
+			sourceTree = "<group>";
+		};
+		B9B0DCD28612F370E52CB4F904BBCBA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E57A9260666B5786DE30C5B3147E21A8 /* libAFNetworking.a */,
+				7F7111DF007A6F47D0946B3D9015A3CC /* libCo_pay_PayNotificationSDK.a */,
+				FFCFADF55FF09C03F66B778CD0B64782 /* libFMDB.a */,
+				D69EB4D3B87FCC9EA4DD6D34CF2BB2C3 /* libLKDBHelper.a */,
+				2BBDA822C1B92CBD08B597F6B2D76094 /* libPods-Co_pay_PayNotificationSDK_Example.a */,
+				592B3B6C2E65C20934AD7D034F5EA831 /* libPods-Co_pay_PayNotificationSDK_Tests.a */,
+				02ABDC194DB32300E71D60D633BE9C46 /* libSAMKeychain.a */,
+				C14F0F0C4D1B023AD9E7EF7C42C0DADB /* libSQLCipher.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BC2844FF8A94AED3690DC4828D7C980C /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				10DB8F91F1F279196F70BA3C7BCC4FEB /* LKDB+Mapping.h */,
+				C0EA67C54AB94285C22A72B051D6D145 /* LKDB+Mapping.m */,
+				1F4BE2A48EE78BBF2DFBBD5679D682DB /* LKDBHelper.h */,
+				080507EDE04DA560E59952273E596BD2 /* LKDBHelper.m */,
+				071D29B63C8B30D8A0DE8EF1FA97A532 /* LKDBUtils.h */,
+				3247FF10BA9372D88DA6788B476C5248 /* LKDBUtils.m */,
+				0325529211D8B6CA8FF1BE7A1B3B1D26 /* NSObject+LKDBHelper.h */,
+				275755DC892806CFA0AC1B000515051F /* NSObject+LKDBHelper.m */,
+				979913DD18026D746DC2E63E86537545 /* NSObject+LKModel.h */,
+				6B1FB206C58FAF1BDB526B376E8400A5 /* NSObject+LKModel.m */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		C6DE267FA7BE30DA89142CCA3105EF36 /* SQLCipher */ = {
+			isa = PBXGroup;
+			children = (
+				2296581808EF273FDF3E6436F5797370 /* FMDatabase.h */,
+				332A4C4E6F06F50B9E400C38226DCEBD /* FMDatabase.m */,
+				11694EC1A98D615BC597628EA0E62293 /* FMDatabaseAdditions.h */,
+				5EBF84706167326A35B3387BB84A9F76 /* FMDatabaseAdditions.m */,
+				099D6D0326EF447ECB64808240C2992A /* FMDatabasePool.h */,
+				0F849A406B81E2A4A2CCFDFC9E24B5D0 /* FMDatabasePool.m */,
+				333928A39C34598D3C1CD7D53369DA63 /* FMDatabaseQueue.h */,
+				7F4D5A2E263A5E8A0D5D6F0052704B07 /* FMDatabaseQueue.m */,
+				897BC771ED7CC2E328F76C58914CC6A0 /* FMDB.h */,
+				7856E52ACBAAE3C20DF290BC4F703904 /* FMResultSet.h */,
+				1FAC94ED91B48CCC54E22980DE923094 /* FMResultSet.m */,
+			);
+			name = SQLCipher;
+			sourceTree = "<group>";
+		};
+		D663C81009C94A12181CC4DF8CE847B7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B84BF67604B090CF88F61F6090B61FA5 /* Pods-Co_pay_PayNotificationSDK_Example */,
+				A3CC36B3D502A50296B0C7FCDBE36B97 /* Pods-Co_pay_PayNotificationSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ED3BE3E904488C5BAD2EC697BF16A2F0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7E0F5DD10A726454C18F4E982FF2CECF /* Co_pay_PayNotificationSDK.podspec */,
+				1910A3325F9D243E2577F3A8373E5A99 /* LICENSE */,
+				D1D4852A9D40E58B1D62BFE943E91DEC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F121B3A8D7DD2E460DFEC349E898D11A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E5875EDC009259B1B316E20A4CE4AEA /* CoreGraphics.framework */,
+				71D3C943E732CDED27AA5EA9AACF9375 /* Foundation.framework */,
+				7354E053D0AD26B1ECF2016D0E681A31 /* MobileCoreServices.framework */,
+				1F3F598D83C98061909D965B3013140C /* Security.framework */,
+				D4225092C0C6CAB0238FB7377BD6D00C /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F21D12027B0C56F3CE3C37138AC498C2 /* SAMKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				5443DD60A3E0D4A88B44392F3485631E /* SAMKeychain.h */,
+				70BD4FB015C10E38FD22E8D8FDE230D6 /* SAMKeychain.m */,
+				3795AA70FBE905F5AEE66D07E89AC733 /* SAMKeychainQuery.h */,
+				E713EA38B3C7224C5A513D8971FFC498 /* SAMKeychainQuery.m */,
+				0653C60E5361C1A3EA20E2A9D9064942 /* Resources */,
+				0934B86B425FB240ABF15CBE65DE02D6 /* Support Files */,
+			);
+			name = SAMKeychain;
+			path = SAMKeychain;
+			sourceTree = "<group>";
+		};
+		FC679873F0639017FCE88BF681DAF9EE /* LKDBHelper */ = {
+			isa = PBXGroup;
+			children = (
+				BC2844FF8A94AED3690DC4828D7C980C /* standard */,
+				911AAA74613B8BF55C168736AE6FE0F1 /* Support Files */,
+			);
+			name = LKDBHelper;
+			path = LKDBHelper;
+			sourceTree = "<group>";
+		};
+		FC86969E99EDEF028168417B2CFF9BC5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1186A47305252703CEC307063CEE4F6B /* AFNetworking.xcconfig */,
+				A4F1D6472504B90FF4813D0884634C45 /* AFNetworking-dummy.m */,
+				F7A241C8DEC2DDA393D9477937F7831A /* AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		76B3190E68CF7A9930D597A97BB57560 /* Headers */ = {
+		711D264FA29B021C67EF3EB7DF6F2576 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E5BB24DFB161808287D085DD44CD4B4 /* Pods-Co_pay_PayNotificationSDK_Example-umbrella.h in Headers */,
+				81868F58530B409860CA8B34EF8CF251 /* FMDatabase.h in Headers */,
+				892A4871DF5903F05334A0303A3C5702 /* FMDatabaseAdditions.h in Headers */,
+				608FC04D4C7B96F96BAC3DD8FEA77B63 /* FMDatabasePool.h in Headers */,
+				884D1652DB00388C4DA05F98B4E680C6 /* FMDatabaseQueue.h in Headers */,
+				37F95B687C5974E3DF611D9E72651BAE /* FMDB.h in Headers */,
+				CAC8A3028634D75BD141E5667A57A934 /* FMResultSet.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A61987A928E17FBA6773CC5D107D0D47 /* Headers */ = {
+		7EF845A1D4DDC8E4F17F1818537E56F7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2D085C0459E97BDF253613F49D935BD /* Co_pay_PayNotificationConfig.h in Headers */,
-				6F6C21A77BD536E821319ADB28E17D64 /* Co_pay_PayNotificationDeviceModel.h in Headers */,
-				AF470CDDB805F08E2F44D816078B7964 /* Co_pay_PayNotificationFailManager.h in Headers */,
-				1F036C7645E07A6A4ABFECF24E53380C /* Co_pay_PayNotificationHTTPResponse.h in Headers */,
-				7FC8A159B3541572452D9B3DBF877F49 /* Co_pay_PayNotificationModel.h in Headers */,
-				0D7422E1B39C6F682F5D7DB840165DF9 /* Co_pay_PayNotificationRequestSerializer.h in Headers */,
-				08618E911E4B1F62098AB16E765E34FA /* Co_pay_PayNotificationSDK-umbrella.h in Headers */,
-				B72F0C97ED139B4FAF44A6A07DE5FB36 /* Co_pay_PayNotificationSecureManager.h in Headers */,
-				BA7D8C2254E8E4FA7EEC4DCEF11B0749 /* Co_pay_PayNotificationStateApiManager.h in Headers */,
-				6243392251D150A9F21234EB8E39F20C /* NSString+Co_pay_PayNotificationSecure.h in Headers */,
+				0D8D68D3F31A77B0C10354BCC7C05CBA /* sqlite3.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F20BBE8644384673EF6DDEFF70AD9D20 /* Headers */ = {
+		88E8DEF2BCA110E24B91B04CAF5166EC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F28F3D997F36F4F6B36877E6F0D3BD92 /* Pods-Co_pay_PayNotificationSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		892F7ACA35A7AEA05520D497ED6F501D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C7B2EE4596DD660B707F45FB2FC524 /* AFAutoPurgingImageCache.h in Headers */,
+				4D92DA503C53934C4070048BE5A2F166 /* AFHTTPSessionManager.h in Headers */,
+				322B0167DC6ADAEC507BA261B16D5A4D /* AFImageDownloader.h in Headers */,
+				FCA150CBFDAAE201EE57358F5C008B20 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				76DD9D1D802D2EC64308B8067E6BEA8D /* AFNetworking.h in Headers */,
+				66A5EC8E89B55AB155B8D520C89329FD /* AFNetworkReachabilityManager.h in Headers */,
+				3973C9FFB035FA0C670A42917EE82E64 /* AFSecurityPolicy.h in Headers */,
+				3941248CFCC3E42F545DBD4BBB2A4D64 /* AFURLRequestSerialization.h in Headers */,
+				7A22670D99E4B4DF9828EBA452CD5108 /* AFURLResponseSerialization.h in Headers */,
+				38584822C998FBCACB9EDBFE7B3C2FC9 /* AFURLSessionManager.h in Headers */,
+				CAD7415DA1D05CB1B389D9CE6EE9D91C /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				337CD440F852C34CA6D1F3B0C157DFF1 /* UIButton+AFNetworking.h in Headers */,
+				FC0E22065317ABAEDBFC084E1BCC587F /* UIImage+AFNetworking.h in Headers */,
+				D1D9749FD4F58B1C0AE3B1A3BFCC3A13 /* UIImageView+AFNetworking.h in Headers */,
+				38ACD750445EB2A0EDC1DF1737C92EC8 /* UIKit+AFNetworking.h in Headers */,
+				2AA287541F00A47B98D4A1195EA27E13 /* UIProgressView+AFNetworking.h in Headers */,
+				6CB950CBBB5AB24A7090B881C2986162 /* UIRefreshControl+AFNetworking.h in Headers */,
+				46BC0A47F1D419C82B1AAAC02534B3A5 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BEED77EA12E2A60985EE8BF4FA794A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00EAE75910E4F2FDFA7D9B77ABEFA5E8 /* Co_pay_PayNotificationConfig.h in Headers */,
+				9FAC93AFAFC8306687EE092710D9F343 /* Co_pay_PayNotificationDeviceModel.h in Headers */,
+				759B0BBEB9EB49DA9DAA7ED32C3296EB /* Co_pay_PayNotificationFailManager.h in Headers */,
+				8F0C54DB7821D9715DA1245C91CDD01B /* Co_pay_PayNotificationHTTPResponse.h in Headers */,
+				22F802B5797013CAB89BE7984F05B657 /* Co_pay_PayNotificationModel.h in Headers */,
+				80963439585EF9A4B089806A2014C73C /* Co_pay_PayNotificationRequestSerializer.h in Headers */,
+				956C4A7D7671C716BE49909E399C963D /* Co_pay_PayNotificationSecureManager.h in Headers */,
+				27359703ED432A1DB91C426E7465E5D7 /* Co_pay_PayNotificationStateApiManager.h in Headers */,
+				E138BF1E914578B1F060EEF43FBA1CC1 /* NSString+Co_pay_PayNotificationSecure.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BAB7F36F0222249743AF1B2CA616B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E6571AFF32F01D03FEC963DF102999 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72534FAB76929AAA262B6C262171A83 /* LKDB+Mapping.h in Headers */,
+				8FE32B2C54C6FBC8746B0DF5F47145B1 /* LKDBHelper.h in Headers */,
+				FB059AE1DF9FEC7CAACF03FF0A8B7688 /* LKDBUtils.h in Headers */,
+				F5E81A44EE8A155E51394026798DBB86 /* NSObject+LKDBHelper.h in Headers */,
+				E424BC9AA05B7BDBA96F16F4C542F25F /* NSObject+LKModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39B90ECB1E0AA472E608330088BB379 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E92B4E8210A83375537384B33F68AFB /* SAMKeychain.h in Headers */,
+				40A631F71D4AE399386FF6DF7D38B34F /* SAMKeychainQuery.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		52841DC84904BD86AB1B2B06BAE985E4 /* Pods-Co_pay_PayNotificationSDK_Tests */ = {
+		217A04E2FCECF298935C9305006BCA6F /* LKDBHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 981F38D23F362BDCAA7DB7D4FA086B5D /* Build configuration list for PBXNativeTarget "Pods-Co_pay_PayNotificationSDK_Tests" */;
+			buildConfigurationList = 93385F0693752BA1C6BE5FF16CE8A83B /* Build configuration list for PBXNativeTarget "LKDBHelper" */;
 			buildPhases = (
-				F20BBE8644384673EF6DDEFF70AD9D20 /* Headers */,
-				428802EEBFB486DD4C81A97D2E6CD1B8 /* Sources */,
-				1B1A2C5AE77AD362CD1CA7A3BB275CD9 /* Frameworks */,
-				DCFB2BED6F5643EE1303FDDBF66E9E2E /* Resources */,
+				D0E6571AFF32F01D03FEC963DF102999 /* Headers */,
+				9B6ED8A67C35B994BEB97E127947EFDE /* Sources */,
+				654B6149847C14C90EFD800D67AD79E3 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6E508161EAADBD45F12210BF3FBE4567 /* PBXTargetDependency */,
+				7148C98AF43792CA7F1414A1A65F2F7D /* PBXTargetDependency */,
 			);
-			name = "Pods-Co_pay_PayNotificationSDK_Tests";
-			productName = "Pods-Co_pay_PayNotificationSDK_Tests";
-			productReference = 4C92EA2F7B996CCDEDDF6A375EF6B751 /* Pods_Co_pay_PayNotificationSDK_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			name = LKDBHelper;
+			productName = LKDBHelper;
+			productReference = D69EB4D3B87FCC9EA4DD6D34CF2BB2C3 /* libLKDBHelper.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		BBE1D383F69DBF6A0107353AB2F61338 /* Pods-Co_pay_PayNotificationSDK_Example */ = {
+		44554DC93195FEE7E0A79E676A826579 /* Co_pay_PayNotificationSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 354433EE6A95EA4705122D576E7D03A5 /* Build configuration list for PBXNativeTarget "Pods-Co_pay_PayNotificationSDK_Example" */;
+			buildConfigurationList = 0F4C64CD54C936ED18D18C56CB1B1979 /* Build configuration list for PBXNativeTarget "Co_pay_PayNotificationSDK" */;
 			buildPhases = (
-				76B3190E68CF7A9930D597A97BB57560 /* Headers */,
-				EBCE266954C8EB2823C88ADEDCBA38FE /* Sources */,
-				12A77204295D45ED7241D58AD246ACEA /* Frameworks */,
-				CF6007CE53DE9742112B6B0677D4A89D /* Resources */,
+				95BEED77EA12E2A60985EE8BF4FA794A /* Headers */,
+				355BA53A797BF55AA12B88680E1D40D3 /* Sources */,
+				CC1D98D88FA69A67728D44AF1E6A4B5D /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D8F9950327A44DA7C9E9B39EE3AB465E /* PBXTargetDependency */,
-			);
-			name = "Pods-Co_pay_PayNotificationSDK_Example";
-			productName = "Pods-Co_pay_PayNotificationSDK_Example";
-			productReference = 2CD028886E87FDED1E54D2AD953FE261 /* Pods_Co_pay_PayNotificationSDK_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CB7DAAF3B7B47D62D1EC98758627EA82 /* Co_pay_PayNotificationSDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84AAE396CF4B11161FEB3B1DE69C8A9D /* Build configuration list for PBXNativeTarget "Co_pay_PayNotificationSDK" */;
-			buildPhases = (
-				A61987A928E17FBA6773CC5D107D0D47 /* Headers */,
-				938DC795B1D5B7F8E4F751A8E5670190 /* Sources */,
-				C1307A8CCC70FDB05BF140D2D6FB1590 /* Frameworks */,
-				406E3CE0766A08BFCEC3556438230CDE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				6F13342A20593E9ED96907F5EEF49D14 /* PBXTargetDependency */,
+				A61B4276BC8851F89D86EBCCE4E381C6 /* PBXTargetDependency */,
+				4CF2ADD507B9A6850B09516686A46C82 /* PBXTargetDependency */,
+				43EE576B331EA97BEFB187552EFBAF8F /* PBXTargetDependency */,
+				B19CC6DD7144EB3D583E224969B716A4 /* PBXTargetDependency */,
 			);
 			name = Co_pay_PayNotificationSDK;
 			productName = Co_pay_PayNotificationSDK;
-			productReference = 8815C292E25B6EE9BF9F163EF1788A1D /* Co_pay_PayNotificationSDK.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 7F7111DF007A6F47D0946B3D9015A3CC /* libCo_pay_PayNotificationSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		57D0B419DD41B489FCB8AC8B124BEB61 /* SAMKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6628CC258B26A13CD8E6A14BBFD0378E /* Build configuration list for PBXNativeTarget "SAMKeychain" */;
+			buildPhases = (
+				E39B90ECB1E0AA472E608330088BB379 /* Headers */,
+				D4CC8A9F6F3E11DE5F4E2A933DB2BF0D /* Sources */,
+				2190CA1BD1F4C7F845DCE9DEC646C53A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAMKeychain;
+			productName = SAMKeychain;
+			productReference = 02ABDC194DB32300E71D60D633BE9C46 /* libSAMKeychain.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		79088B8C8555E63FDBF24B6DEF3A60F1 /* SQLCipher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 412D5472BAF50A81DFD4C43982FF85F3 /* Build configuration list for PBXNativeTarget "SQLCipher" */;
+			buildPhases = (
+				7EF845A1D4DDC8E4F17F1818537E56F7 /* Headers */,
+				028705FC66891E77347BD837D654165B /* Sources */,
+				B9A0EB8ACE8F9AD253E4AD7E1B4EE33E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLCipher;
+			productName = SQLCipher;
+			productReference = C14F0F0C4D1B023AD9E7EF7C42C0DADB /* libSQLCipher.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		81D213BD50994720DF37335C12B389B6 /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7998FC983D2C8D802A0CA233F1CBCD42 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				892F7ACA35A7AEA05520D497ED6F501D /* Headers */,
+				9468C734802C03D0890614C00C452008 /* Sources */,
+				2D76FCA450C5C417CE2A17C52B62C661 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = E57A9260666B5786DE30C5B3147E21A8 /* libAFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CBF28EC9CDE0D2DC1709741E85D11760 /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AAE5A01BDB6A4E7C02DF0322FE5C658 /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				711D264FA29B021C67EF3EB7DF6F2576 /* Headers */,
+				821A6065CBEBC7A8D243295FB4CCCD57 /* Sources */,
+				433218CA807310959C7B36A466EBD098 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27A216B1502E8FE34DF54ACB9844D701 /* PBXTargetDependency */,
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = FFCFADF55FF09C03F66B778CD0B64782 /* libFMDB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DCBFD74F4601EF299AF48BB599328B51 /* Pods-Co_pay_PayNotificationSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2EE12AD31AE78E4E8F5A532C0702475 /* Build configuration list for PBXNativeTarget "Pods-Co_pay_PayNotificationSDK_Tests" */;
+			buildPhases = (
+				A4BAB7F36F0222249743AF1B2CA616B2 /* Headers */,
+				2559782D6E236887021D5538E0841F53 /* Sources */,
+				3797AE00F7B5CA91AE9E5AF2F6AA35D1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2DDD77FB0B538E502BF6FB47C523F9C /* PBXTargetDependency */,
+			);
+			name = "Pods-Co_pay_PayNotificationSDK_Tests";
+			productName = "Pods-Co_pay_PayNotificationSDK_Tests";
+			productReference = 592B3B6C2E65C20934AD7D034F5EA831 /* libPods-Co_pay_PayNotificationSDK_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FA74C083065DD6CAC2A394964F2A6C43 /* Pods-Co_pay_PayNotificationSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C25669E63EF7D73AF2EA2A534E6B52 /* Build configuration list for PBXNativeTarget "Pods-Co_pay_PayNotificationSDK_Example" */;
+			buildPhases = (
+				88E8DEF2BCA110E24B91B04CAF5166EC /* Headers */,
+				ADE4ACCD78F2790F2A84227DB2C388C4 /* Sources */,
+				33BF8BD8E8CC26876C816142983E2341 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE9CAE1D540CA2F9FE9A6968AC0187C1 /* PBXTargetDependency */,
+				EC12F1A391EBFCA113AE39FAAF8EB952 /* PBXTargetDependency */,
+				9DD9D327A21285673940D5D25B5FF226 /* PBXTargetDependency */,
+				E41613189115B6D0CB19181F875174EF /* PBXTargetDependency */,
+				6E853D1286E864C68CF21251E089DE28 /* PBXTargetDependency */,
+				570F85217A3290126572B37667E25211 /* PBXTargetDependency */,
+			);
+			name = "Pods-Co_pay_PayNotificationSDK_Example";
+			productName = "Pods-Co_pay_PayNotificationSDK_Example";
+			productReference = 2BBDA822C1B92CBD08B597F6B2D76094 /* libPods-Co_pay_PayNotificationSDK_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -390,185 +1088,348 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F09F7ECA0F7FB302A41317D242AC2655 /* Products */;
+			productRefGroup = B9B0DCD28612F370E52CB4F904BBCBA0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB7DAAF3B7B47D62D1EC98758627EA82 /* Co_pay_PayNotificationSDK */,
-				BBE1D383F69DBF6A0107353AB2F61338 /* Pods-Co_pay_PayNotificationSDK_Example */,
-				52841DC84904BD86AB1B2B06BAE985E4 /* Pods-Co_pay_PayNotificationSDK_Tests */,
+				81D213BD50994720DF37335C12B389B6 /* AFNetworking */,
+				44554DC93195FEE7E0A79E676A826579 /* Co_pay_PayNotificationSDK */,
+				CBF28EC9CDE0D2DC1709741E85D11760 /* FMDB */,
+				217A04E2FCECF298935C9305006BCA6F /* LKDBHelper */,
+				FA74C083065DD6CAC2A394964F2A6C43 /* Pods-Co_pay_PayNotificationSDK_Example */,
+				DCBFD74F4601EF299AF48BB599328B51 /* Pods-Co_pay_PayNotificationSDK_Tests */,
+				57D0B419DD41B489FCB8AC8B124BEB61 /* SAMKeychain */,
+				79088B8C8555E63FDBF24B6DEF3A60F1 /* SQLCipher */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		406E3CE0766A08BFCEC3556438230CDE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF6007CE53DE9742112B6B0677D4A89D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCFB2BED6F5643EE1303FDDBF66E9E2E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		428802EEBFB486DD4C81A97D2E6CD1B8 /* Sources */ = {
+		028705FC66891E77347BD837D654165B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1992750598E2E637E69B5F7DCD47464C /* Pods-Co_pay_PayNotificationSDK_Tests-dummy.m in Sources */,
+				9BE0D8D44D59C670325C3D81D416105C /* SQLCipher-dummy.m in Sources */,
+				3F355593386658B853B5D9C27FB32EDB /* sqlite3.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		938DC795B1D5B7F8E4F751A8E5670190 /* Sources */ = {
+		2559782D6E236887021D5538E0841F53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0414457F2494011397543B77F55FBFDF /* Co_pay_PayNotificationConfig.m in Sources */,
-				527693E7FCC86143D23BEEDD7CD4DB57 /* Co_pay_PayNotificationDeviceModel.m in Sources */,
-				5A5C59918B6FD8605A258C03DBA9D5FA /* Co_pay_PayNotificationFailManager.m in Sources */,
-				854E2736982DA4886EA391824DDD33E9 /* Co_pay_PayNotificationHTTPResponse.m in Sources */,
-				310758892CBA0DC0C1EB8F854B512BFD /* Co_pay_PayNotificationModel.m in Sources */,
-				0BB88F798FF6A7E7C7D97F9395824641 /* Co_pay_PayNotificationRequestSerializer.m in Sources */,
-				46B8583E34410ACC962C398A602A1CC8 /* Co_pay_PayNotificationSDK-dummy.m in Sources */,
-				6C9A969D87B2023519B9EC6385DA5C83 /* Co_pay_PayNotificationSecureManager.m in Sources */,
-				ECA03DF4A667F9ED48AAC92C062E85BF /* Co_pay_PayNotificationStateApiManager.m in Sources */,
-				B35AE0CF5A05A52BEA2CA1599DA05C97 /* NSString+Co_pay_PayNotificationSecure.m in Sources */,
+				21BC7897EB312C7B0D5B2A4DD2F0FDE4 /* Pods-Co_pay_PayNotificationSDK_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBCE266954C8EB2823C88ADEDCBA38FE /* Sources */ = {
+		355BA53A797BF55AA12B88680E1D40D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2936E2230C3D6EC2FFD60A159557F11C /* Pods-Co_pay_PayNotificationSDK_Example-dummy.m in Sources */,
+				9856EA5B801AE20FD38D34B6025E759E /* Co_pay_PayNotificationConfig.m in Sources */,
+				C52F59F458FAC576265D520B87586F2A /* Co_pay_PayNotificationDeviceModel.m in Sources */,
+				CC41EB5244DB411330CED77161E339DC /* Co_pay_PayNotificationFailManager.m in Sources */,
+				F763E92BD6C05B01C6294EE36B1DCE66 /* Co_pay_PayNotificationHTTPResponse.m in Sources */,
+				043D50A2BF1F12525C9406E1B540EA3E /* Co_pay_PayNotificationModel.m in Sources */,
+				6771CF63E12CF9DD93F023868C0B5BC5 /* Co_pay_PayNotificationRequestSerializer.m in Sources */,
+				FCC4A70D8879E223D4FAE2CEACC1F639 /* Co_pay_PayNotificationSDK-dummy.m in Sources */,
+				F2E8556B0471029398F3CB8DC64C6EDA /* Co_pay_PayNotificationSecureManager.m in Sources */,
+				9724FFD9E6A924F134E309FCF4A4DBA7 /* Co_pay_PayNotificationStateApiManager.m in Sources */,
+				91E6519B216B77C7F80E294178AAB985 /* NSString+Co_pay_PayNotificationSecure.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821A6065CBEBC7A8D243295FB4CCCD57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66085B599DC968FFC9B662E0D9FBA38D /* FMDatabase.m in Sources */,
+				CDAEFF713408F3517260A86299E16C8E /* FMDatabaseAdditions.m in Sources */,
+				3E16B619C420D44A6FB9085D71026425 /* FMDatabasePool.m in Sources */,
+				33CFDB901334CE627274082F7478C031 /* FMDatabaseQueue.m in Sources */,
+				0F8A3FDE8072293F3F1DDBA5DED22247 /* FMDB-dummy.m in Sources */,
+				080CE2D6B168685ADC24A609867447B6 /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9468C734802C03D0890614C00C452008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79615CF1161C38954FCCF7BBBC0884F /* AFAutoPurgingImageCache.m in Sources */,
+				3BEB21070080ABEA0EB68DE1AC59F0CF /* AFHTTPSessionManager.m in Sources */,
+				C13D7203D0502CFDD1CD5C0F069B5201 /* AFImageDownloader.m in Sources */,
+				01098BE26196660BD9CC5C545194F5A0 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				EF3845963CFF5C261D19D44B12CD9161 /* AFNetworking-dummy.m in Sources */,
+				72C7D69ADEA89CE8D2BB24B95DDA17A9 /* AFNetworkReachabilityManager.m in Sources */,
+				F4F950625A8F380894FD02414712F7D6 /* AFSecurityPolicy.m in Sources */,
+				ED3350686DCA321FC0CB884EF0FF34F7 /* AFURLRequestSerialization.m in Sources */,
+				A85834C08F41662ADA5FA22E21DA4F5F /* AFURLResponseSerialization.m in Sources */,
+				13E458860BF01BD4AD754F09E67D34D3 /* AFURLSessionManager.m in Sources */,
+				93B3FE9343B28A6BD9ADC733C04BE8EA /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				24B9EE9189EF79A5D62FF97F094E6B91 /* UIButton+AFNetworking.m in Sources */,
+				F11639A7061B93B03A3E26E82C00DE3D /* UIImageView+AFNetworking.m in Sources */,
+				7A7A848EC8A1EE519E546993E002CF01 /* UIProgressView+AFNetworking.m in Sources */,
+				C450FA8396B47270B27950AAD1026853 /* UIRefreshControl+AFNetworking.m in Sources */,
+				32AA532B4B476F3CB155321DD31BE2E0 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6ED8A67C35B994BEB97E127947EFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A89F877001E5F36E99B97A934A93282 /* LKDB+Mapping.m in Sources */,
+				88181C1D32BB88A9F71C5167ACBF70F8 /* LKDBHelper-dummy.m in Sources */,
+				F7C1708085D4ECF4E524E60D3CEE35DF /* LKDBHelper.m in Sources */,
+				2D5CA16AE7B489BBC6B4395F606A64FF /* LKDBUtils.m in Sources */,
+				65DEDD21C68EC69C7FB3F1E39A151683 /* NSObject+LKDBHelper.m in Sources */,
+				100449F4F7F6F6C2DB38FF814961D2E9 /* NSObject+LKModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE4ACCD78F2790F2A84227DB2C388C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D393ACCC52180836FE59F9E6AB83AA /* Pods-Co_pay_PayNotificationSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CC8A9F6F3E11DE5F4E2A933DB2BF0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8BA665725FCABF6052E4639DBBACC6A /* SAMKeychain-dummy.m in Sources */,
+				85051C725B6D9A339A5158688B22E0B7 /* SAMKeychain.m in Sources */,
+				765B7A86008A372D7476CB9B10DE3FD8 /* SAMKeychainQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6E508161EAADBD45F12210BF3FBE4567 /* PBXTargetDependency */ = {
+		27A216B1502E8FE34DF54ACB9844D701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLCipher;
+			target = 79088B8C8555E63FDBF24B6DEF3A60F1 /* SQLCipher */;
+			targetProxy = 6B0720F2B2EB263A35E7CA545DFAEB4C /* PBXContainerItemProxy */;
+		};
+		43EE576B331EA97BEFB187552EFBAF8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMKeychain;
+			target = 57D0B419DD41B489FCB8AC8B124BEB61 /* SAMKeychain */;
+			targetProxy = 2AEBCF89AA595954ED4796321D992C3D /* PBXContainerItemProxy */;
+		};
+		4CF2ADD507B9A6850B09516686A46C82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LKDBHelper;
+			target = 217A04E2FCECF298935C9305006BCA6F /* LKDBHelper */;
+			targetProxy = A7862F2139DFF8062AF93E388C962B41 /* PBXContainerItemProxy */;
+		};
+		570F85217A3290126572B37667E25211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLCipher;
+			target = 79088B8C8555E63FDBF24B6DEF3A60F1 /* SQLCipher */;
+			targetProxy = 32376649AEADE8F85DED2F58CD9EDC76 /* PBXContainerItemProxy */;
+		};
+		6E853D1286E864C68CF21251E089DE28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMKeychain;
+			target = 57D0B419DD41B489FCB8AC8B124BEB61 /* SAMKeychain */;
+			targetProxy = 9827380850117822017D389808F873B1 /* PBXContainerItemProxy */;
+		};
+		6F13342A20593E9ED96907F5EEF49D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 81D213BD50994720DF37335C12B389B6 /* AFNetworking */;
+			targetProxy = 436B5B6E8533347850DD9C46FBD2F435 /* PBXContainerItemProxy */;
+		};
+		7148C98AF43792CA7F1414A1A65F2F7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = CBF28EC9CDE0D2DC1709741E85D11760 /* FMDB */;
+			targetProxy = 277A433FB371E36729FA9772D8485341 /* PBXContainerItemProxy */;
+		};
+		9DD9D327A21285673940D5D25B5FF226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = CBF28EC9CDE0D2DC1709741E85D11760 /* FMDB */;
+			targetProxy = 91F9930E21E59B2B2732E7C270B90322 /* PBXContainerItemProxy */;
+		};
+		A61B4276BC8851F89D86EBCCE4E381C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = CBF28EC9CDE0D2DC1709741E85D11760 /* FMDB */;
+			targetProxy = C9FB77E24A729B35B347A0E438FD3584 /* PBXContainerItemProxy */;
+		};
+		B19CC6DD7144EB3D583E224969B716A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLCipher;
+			target = 79088B8C8555E63FDBF24B6DEF3A60F1 /* SQLCipher */;
+			targetProxy = 907590D3A4D128B31BCFE06B16187634 /* PBXContainerItemProxy */;
+		};
+		CE9CAE1D540CA2F9FE9A6968AC0187C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 81D213BD50994720DF37335C12B389B6 /* AFNetworking */;
+			targetProxy = E826C7BBD4F6C1726EB7AF613B7DF24A /* PBXContainerItemProxy */;
+		};
+		E2DDD77FB0B538E502BF6FB47C523F9C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Co_pay_PayNotificationSDK_Example";
-			target = BBE1D383F69DBF6A0107353AB2F61338 /* Pods-Co_pay_PayNotificationSDK_Example */;
-			targetProxy = 5E586C6C214B8F238D0C7588E4646393 /* PBXContainerItemProxy */;
+			target = FA74C083065DD6CAC2A394964F2A6C43 /* Pods-Co_pay_PayNotificationSDK_Example */;
+			targetProxy = CF0BA7F5B428A1F39313A3512895B3CA /* PBXContainerItemProxy */;
 		};
-		D8F9950327A44DA7C9E9B39EE3AB465E /* PBXTargetDependency */ = {
+		E41613189115B6D0CB19181F875174EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LKDBHelper;
+			target = 217A04E2FCECF298935C9305006BCA6F /* LKDBHelper */;
+			targetProxy = 4EFC451CB88537C5B0AA4CB8BD79D754 /* PBXContainerItemProxy */;
+		};
+		EC12F1A391EBFCA113AE39FAAF8EB952 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Co_pay_PayNotificationSDK;
-			target = CB7DAAF3B7B47D62D1EC98758627EA82 /* Co_pay_PayNotificationSDK */;
-			targetProxy = 32BAA40251DCD5ADD773AEFFAF182811 /* PBXContainerItemProxy */;
+			target = 44554DC93195FEE7E0A79E676A826579 /* Co_pay_PayNotificationSDK */;
+			targetProxy = 9752E8404CDEBE3BD4125B2EC9B2B19F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4947C2939D3BD611FB8149637FC7809C /* Release */ = {
+		22D167B38CD0EE862BD4AC9D5E533E24 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 880669227E469FCED0A89FA9A5B8FDE7 /* Co_pay_PayNotificationSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Co_pay_PayNotificationSDK/Co_pay_PayNotificationSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Co_pay_PayNotificationSDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Co_pay_PayNotificationSDK/Co_pay_PayNotificationSDK.modulemap";
-				PRODUCT_MODULE_NAME = Co_pay_PayNotificationSDK;
-				PRODUCT_NAME = Co_pay_PayNotificationSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		592B9CE3DD7B05E24659D272356E098A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 880669227E469FCED0A89FA9A5B8FDE7 /* Co_pay_PayNotificationSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Co_pay_PayNotificationSDK/Co_pay_PayNotificationSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Co_pay_PayNotificationSDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Co_pay_PayNotificationSDK/Co_pay_PayNotificationSDK.modulemap";
-				PRODUCT_MODULE_NAME = Co_pay_PayNotificationSDK;
-				PRODUCT_NAME = Co_pay_PayNotificationSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5D85492DED910200F0A201C90A0BA750 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B83B41FB5FBF4112406D651A0DAE768 /* Pods-Co_pay_PayNotificationSDK_Tests.release.xcconfig */;
+			baseConfigurationReference = 1CA224622F6EFEFA144A4E6B112CB8E9 /* Pods-Co_pay_PayNotificationSDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Co_pay_PayNotificationSDK_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Co_pay_PayNotificationSDK_Tests/Pods-Co_pay_PayNotificationSDK_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		322D74087E518CECACD0DEF98D6044D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 063A3D1657CF47BCFF0F1F37A941A862 /* Pods-Co_pay_PayNotificationSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36B0F1B159F0C8011195A010815D79B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E31DD4121CE90755FE462FD08577C69 /* Co_pay_PayNotificationSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Co_pay_PayNotificationSDK/Co_pay_PayNotificationSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Co_pay_PayNotificationSDK;
+				PRODUCT_NAME = Co_pay_PayNotificationSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45204AD098CE7660F85D7F471FFEFED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1186A47305252703CEC307063CEE4F6B /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FB186BD75CA33E521DAD7D9C362BEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FCE944AE372825E03380FDF2AB8A0D7 /* FMDB.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6157A29A422954AEDDA4166BD747EF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FCE944AE372825E03380FDF2AB8A0D7 /* FMDB.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -633,6 +1494,75 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		91E953546A4BDCF76287F0F9E2854795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E31DD4121CE90755FE462FD08577C69 /* Co_pay_PayNotificationSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Co_pay_PayNotificationSDK/Co_pay_PayNotificationSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Co_pay_PayNotificationSDK;
+				PRODUCT_NAME = Co_pay_PayNotificationSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9798D1E398CDE8D5BFA1789CA129DDEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95998215FEF32A86530BC2642424C80A /* Pods-Co_pay_PayNotificationSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A62A09D175527158FAB54DAB2B308945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4450646AF134C5660E2EA6146879662 /* SAMKeychain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = SAMKeychain;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -700,109 +1630,182 @@
 			};
 			name = Debug;
 		};
-		D8387A4D052CBD55BBB6F34581956EE7 /* Debug */ = {
+		AD15B4CEB12395FC2B825F2EB8DEE6AE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64B7F469475631E3BCBE540CB74FFE8C /* Pods-Co_pay_PayNotificationSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = 7B213819948BC076A549545D50762731 /* LKDBHelper.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Co_pay_PayNotificationSDK_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Co_pay_PayNotificationSDK_Example/Pods-Co_pay_PayNotificationSDK_Example.modulemap";
+				GCC_PREFIX_HEADER = "Target Support Files/LKDBHelper/LKDBHelper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LKDBHelper;
+				PRODUCT_NAME = LKDBHelper;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		D9A02538BB07111A9A611542BCC1D19B /* Debug */ = {
+		B8359A64C1AE31705B547C97C21F0BBA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97BDE93948155840ED9A89B57B4BA12F /* Pods-Co_pay_PayNotificationSDK_Tests.debug.xcconfig */;
+			baseConfigurationReference = C4450646AF134C5660E2EA6146879662 /* SAMKeychain.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Co_pay_PayNotificationSDK_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Co_pay_PayNotificationSDK_Tests/Pods-Co_pay_PayNotificationSDK_Tests.modulemap";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = SAMKeychain;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		E82EB86F96D842DB821711851DA0968B /* Release */ = {
+		C8D5E3FC2E26E96362110F0FD028F4F9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C5D9411A62610DAEB1FCF82B3C61E87 /* Pods-Co_pay_PayNotificationSDK_Example.release.xcconfig */;
+			baseConfigurationReference = 4B79DF38B5DBB12CE1BB9FE3C6E00C81 /* Pods-Co_pay_PayNotificationSDK_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Co_pay_PayNotificationSDK_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Co_pay_PayNotificationSDK_Example/Pods-Co_pay_PayNotificationSDK_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		D70AC5704D628CFDD57AE592843F3417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1186A47305252703CEC307063CEE4F6B /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F53A74A0165B80C707A4B87C122D9E7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B213819948BC076A549545D50762731 /* LKDBHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LKDBHelper/LKDBHelper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LKDBHelper;
+				PRODUCT_NAME = LKDBHelper;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F91C8761ACF046AB7B715BADFB9E0B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D481A99C8545CB0CA0E22E2AEE3EA0 /* SQLCipher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SQLCipher;
+				PRODUCT_NAME = SQLCipher;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9B460CBF8450F618F56AAABB7917E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D481A99C8545CB0CA0E22E2AEE3EA0 /* SQLCipher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SQLCipher;
+				PRODUCT_NAME = SQLCipher;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0F4C64CD54C936ED18D18C56CB1B1979 /* Build configuration list for PBXNativeTarget "Co_pay_PayNotificationSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36B0F1B159F0C8011195A010815D79B6 /* Debug */,
+				91E953546A4BDCF76287F0F9E2854795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -812,29 +1815,65 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		354433EE6A95EA4705122D576E7D03A5 /* Build configuration list for PBXNativeTarget "Pods-Co_pay_PayNotificationSDK_Example" */ = {
+		412D5472BAF50A81DFD4C43982FF85F3 /* Build configuration list for PBXNativeTarget "SQLCipher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8387A4D052CBD55BBB6F34581956EE7 /* Debug */,
-				E82EB86F96D842DB821711851DA0968B /* Release */,
+				F9B460CBF8450F618F56AAABB7917E7F /* Debug */,
+				F91C8761ACF046AB7B715BADFB9E0B78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84AAE396CF4B11161FEB3B1DE69C8A9D /* Build configuration list for PBXNativeTarget "Co_pay_PayNotificationSDK" */ = {
+		4AAE5A01BDB6A4E7C02DF0322FE5C658 /* Build configuration list for PBXNativeTarget "FMDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				592B9CE3DD7B05E24659D272356E098A /* Debug */,
-				4947C2939D3BD611FB8149637FC7809C /* Release */,
+				5FB186BD75CA33E521DAD7D9C362BEF8 /* Debug */,
+				6157A29A422954AEDDA4166BD747EF0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		981F38D23F362BDCAA7DB7D4FA086B5D /* Build configuration list for PBXNativeTarget "Pods-Co_pay_PayNotificationSDK_Tests" */ = {
+		6628CC258B26A13CD8E6A14BBFD0378E /* Build configuration list for PBXNativeTarget "SAMKeychain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9A02538BB07111A9A611542BCC1D19B /* Debug */,
-				5D85492DED910200F0A201C90A0BA750 /* Release */,
+				A62A09D175527158FAB54DAB2B308945 /* Debug */,
+				B8359A64C1AE31705B547C97C21F0BBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7998FC983D2C8D802A0CA233F1CBCD42 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45204AD098CE7660F85D7F471FFEFED7 /* Debug */,
+				D70AC5704D628CFDD57AE592843F3417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93385F0693752BA1C6BE5FF16CE8A83B /* Build configuration list for PBXNativeTarget "LKDBHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53A74A0165B80C707A4B87C122D9E7D /* Debug */,
+				AD15B4CEB12395FC2B825F2EB8DEE6AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C25669E63EF7D73AF2EA2A534E6B52 /* Build configuration list for PBXNativeTarget "Pods-Co_pay_PayNotificationSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322D74087E518CECACD0DEF98D6044D5 /* Debug */,
+				9798D1E398CDE8D5BFA1789CA129DDEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2EE12AD31AE78E4E8F5A532C0702475 /* Build configuration list for PBXNativeTarget "Pods-Co_pay_PayNotificationSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D167B38CD0EE862BD4AC9D5E533E24 /* Debug */,
+				C8D5E3FC2E26E96362110F0FD028F4F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

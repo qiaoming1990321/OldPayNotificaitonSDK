@@ -9,7 +9,6 @@
 #import "Co_pay_PayNotificationConfig.h"
 #import "Co_pay_PayNotificationFailManager.h"
 #import <SAMKeychain/SAMKeychain.h>
-#import <Co_pay_Statistics/CSStatisticsDeviceInfo.h>
 
 @interface Co_pay_PayNotificationConfig()
 
@@ -29,7 +28,7 @@ payNotificationConfig = [[Co_pay_PayNotificationConfig alloc] init];
 return payNotificationConfig;
 }
 
-- (void)initPayNotificationConfigWith:(BOOL)isDebug withClientID:(NSString *)clientID withSignatureKey:(NSString *)signatureKey withDesKey:(NSString *)desKey appid:(NSString *)appId{
+- (void)co_pay_initPayNotificationConfigWith:(BOOL)isDebug withClientID:(NSString *)clientID withSignatureKey:(NSString *)signatureKey withDesKey:(NSString *)desKey appid:(NSString *)appId{
 self.isTest = isDebug;
 self.xSignatureKey = signatureKey;
 self.clientID = clientID;
@@ -37,7 +36,6 @@ self.desKey = desKey;
 self.desBytesCapacity  = 1024 * 128;
 self.requestTimeout = 60.0;
 self.appId = appId;
-[self setStaticUUID:[Co_pay_StatisticsDeviceInfo UDIDString]];
 if (isDebug) {
 self.payStateDomain = @"https://ipaylite-stage.ourstrade.com";
 } else {

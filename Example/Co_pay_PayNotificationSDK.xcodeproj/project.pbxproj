@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07C64B2A085F67999F015C86 /* Pods_Co_pay_PayNotificationSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B064423BBEAF73EFE21743 /* Pods_Co_pay_PayNotificationSDK_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,9 +20,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		638232CD4B72F74E9C251F54 /* libPods-Co_pay_PayNotificationSDK_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3175CFEAACA76F727F70BCD /* libPods-Co_pay_PayNotificationSDK_Tests.a */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		8CC8A099AADE25B8DC56738E /* Pods_Co_pay_PayNotificationSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F579BB2C2D350390CB16CF3 /* Pods_Co_pay_PayNotificationSDK_Example.framework */; };
+		ABA650B951D27C538697E5BF /* libPods-Co_pay_PayNotificationSDK_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 684F3509A10976F5693F2AA2 /* libPods-Co_pay_PayNotificationSDK_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +38,8 @@
 
 /* Begin PBXFileReference section */
 		0504E3A79929D54C73876AC3 /* Pods-Co_pay_PayNotificationSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Co_pay_PayNotificationSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Co_pay_PayNotificationSDK_Example/Pods-Co_pay_PayNotificationSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0B3BC740BFD157AE047239E5 /* Co_pay_PayNotificationSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Co_pay_PayNotificationSDK.podspec; path = ../Co_pay_PayNotificationSDK.podspec; sourceTree = "<group>"; };
-		0F579BB2C2D350390CB16CF3 /* Pods_Co_pay_PayNotificationSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Co_pay_PayNotificationSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		38C8BA60CC853E6E7018EA84 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		59B064423BBEAF73EFE21743 /* Pods_Co_pay_PayNotificationSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Co_pay_PayNotificationSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B3BC740BFD157AE047239E5 /* Co_pay_PayNotificationSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Co_pay_PayNotificationSDK.podspec; path = ../Co_pay_PayNotificationSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		38C8BA60CC853E6E7018EA84 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* Co_pay_PayNotificationSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Co_pay_PayNotificationSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,12 +59,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		684F3509A10976F5693F2AA2 /* libPods-Co_pay_PayNotificationSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Co_pay_PayNotificationSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E042699316E47C406DE3542 /* Pods-Co_pay_PayNotificationSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Co_pay_PayNotificationSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Co_pay_PayNotificationSDK_Tests/Pods-Co_pay_PayNotificationSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B782FCDBB6B7E515A0E1F172 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B782FCDBB6B7E515A0E1F172 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B871657E84864D32150EB365 /* Pods-Co_pay_PayNotificationSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Co_pay_PayNotificationSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Co_pay_PayNotificationSDK_Example/Pods-Co_pay_PayNotificationSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CFAE8928A745A4BDAA3A9692 /* Pods-Co_pay_PayNotificationSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Co_pay_PayNotificationSDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Co_pay_PayNotificationSDK_Tests/Pods-Co_pay_PayNotificationSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3175CFEAACA76F727F70BCD /* libPods-Co_pay_PayNotificationSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Co_pay_PayNotificationSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				8CC8A099AADE25B8DC56738E /* Pods_Co_pay_PayNotificationSDK_Example.framework in Frameworks */,
+				ABA650B951D27C538697E5BF /* libPods-Co_pay_PayNotificationSDK_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				07C64B2A085F67999F015C86 /* Pods_Co_pay_PayNotificationSDK_Tests.framework in Frameworks */,
+				638232CD4B72F74E9C251F54 /* libPods-Co_pay_PayNotificationSDK_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				0F579BB2C2D350390CB16CF3 /* Pods_Co_pay_PayNotificationSDK_Example.framework */,
-				59B064423BBEAF73EFE21743 /* Pods_Co_pay_PayNotificationSDK_Tests.framework */,
+				684F3509A10976F5693F2AA2 /* libPods-Co_pay_PayNotificationSDK_Example.a */,
+				E3175CFEAACA76F727F70BCD /* libPods-Co_pay_PayNotificationSDK_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				07F6A86CD6C47AB251B95141 /* [CP] Embed Pods Frameworks */,
+				3FF2AF50D59EF4517DF5224C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -294,7 +294,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		07F6A86CD6C47AB251B95141 /* [CP] Embed Pods Frameworks */ = {
+		3FF2AF50D59EF4517DF5224C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -302,18 +302,18 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Co_pay_PayNotificationSDK_Example/Pods-Co_pay_PayNotificationSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Co_pay_PayNotificationSDK/Co_pay_PayNotificationSDK.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Co_pay_PayNotificationSDK_Example/Pods-Co_pay_PayNotificationSDK_Example-resources.sh",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Co_pay_PayNotificationSDK.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SAMKeychain.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Co_pay_PayNotificationSDK_Example/Pods-Co_pay_PayNotificationSDK_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Co_pay_PayNotificationSDK_Example/Pods-Co_pay_PayNotificationSDK_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6EC414A8BE49D8C88A27633B /* [CP] Check Pods Manifest.lock */ = {

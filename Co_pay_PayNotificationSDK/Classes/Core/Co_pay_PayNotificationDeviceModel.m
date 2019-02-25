@@ -124,7 +124,7 @@ return [self getDeviceName];
 +(NSString *)getDeviceName{
 struct utsname systemInfo;
 uname(&systemInfo);
-NSString*phoneType = [NSString stringWithCo_pay_tring: systemInfo.machine encoding:NSASCIIStringEncoding];
+NSString*phoneType = [NSString stringWithCString: systemInfo.machine encoding:NSASCIIStringEncoding];
 
 if([phoneType  isEqualToString:@"iPhone1,1"])  return@"iPhone 2G";
 

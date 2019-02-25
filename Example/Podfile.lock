@@ -1,16 +1,70 @@
 PODS:
-  - Co_pay_PayNotificationSDK (0.1.0)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Co_pay_PayNotificationSDK (0.1.0):
+    - AFNetworking
+    - CSStatistics
+    - SAMKeychain
+  - CSStatistics (1.0.0.2):
+    - AFNetworking (= 3.1.0)
+    - FMDB/SQLCipher
+    - LKDBHelper
+    - SAMKeychain
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/SQLCipher (2.7.5):
+    - SQLCipher
+  - FMDB/standard (2.7.5)
+  - LKDBHelper (2.5.1):
+    - LKDBHelper/standard (= 2.5.1)
+  - LKDBHelper/standard (2.5.1):
+    - FMDB
+  - SAMKeychain (1.5.3)
+  - SQLCipher (4.0.1):
+    - SQLCipher/standard (= 4.0.1)
+  - SQLCipher/common (4.0.1)
+  - SQLCipher/standard (4.0.1):
+    - SQLCipher/common
 
 DEPENDENCIES:
   - Co_pay_PayNotificationSDK (from `../`)
+
+SPEC REPOS:
+  http://gerrit.3g.net.cn/gomo_ios_specs:
+    - CSStatistics
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - FMDB
+    - LKDBHelper
+    - SAMKeychain
+    - SQLCipher
 
 EXTERNAL SOURCES:
   Co_pay_PayNotificationSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Co_pay_PayNotificationSDK: f674f3af9ddaedd951b43e74b9d9e1ad397d4a76
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Co_pay_PayNotificationSDK: 3a0fd16e26413f0c1bf0d2f8b68edd937c26efb7
+  CSStatistics: f90e2d421aa0b526909ccac610918d15ef511a40
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  LKDBHelper: 9a276ba51f2e16263d46a9517e16cc9b03472664
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SQLCipher: 4636a257060f6f1b4e143a143028b61a2b462d0d
 
-PODFILE CHECKSUM: d4ab26fa106de74335e15993b58019e7d0044a98
+PODFILE CHECKSUM: 1809221c79462d8a9211ab98314645f61cd2b4a6
 
 COCOAPODS: 1.5.3

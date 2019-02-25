@@ -37,7 +37,7 @@ keyData = [key dataUsingEncoding:NSUTF8StringEncoding];
 Byte *iv = (Byte *) [keyData bytes];
 CCCryptorStatus cryptStatus = CCCrypt(kCCEncrypt,
 kCCAlgorithmDES,
-kCCOptionPKCo_pay_7Padding | kCCOptionECBMode,
+kCCOptionPKCS7Padding | kCCOptionECBMode,
 iv,
 kCCKeySizeDES,
 nil,
@@ -48,7 +48,7 @@ buffer,
 &numBytesEncrypted);
 
 NSData *plainData = nil;
-if (cryptStatus == kCCo_pay_uccess) {
+if (cryptStatus == kCCSuccess) {
 plainData = [NSData dataWithBytes:buffer length:(NSUInteger) numBytesEncrypted];
 } else {
 NSLog(@"DES加密失败");
@@ -88,7 +88,7 @@ buffer,
 (size_t) _kDesBytesCount,
 &numBytesDecrypted);
 NSString* plainText = nil;
-if (cryptStatus == kCCo_pay_uccess) {
+    if (cryptStatus == kCCSuccess) {
 NSData* data = [NSData dataWithBytes:buffer length:(NSUInteger)numBytesDecrypted];
 plainText = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 }
